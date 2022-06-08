@@ -1268,8 +1268,8 @@
         },
         "-\u003d[ Lordakia ]\u003d-": {
           "amountToKill": 0,
-          "killedAmount": 22,
-          "amountRemaining": -22
+          "killedAmount": 49,
+          "amountRemaining": -49
         },
         "..::{ Boss Kristallon }::..": {
           "amountToKill": 0,
@@ -1333,8 +1333,8 @@
         },
         "..::{ Boss Mordon }::..": {
           "amountToKill": 0,
-          "killedAmount": 0,
-          "amountRemaining": 0
+          "killedAmount": 8,
+          "amountRemaining": -8
         },
         "( Uber Annihilator )": {
           "amountToKill": 0,
@@ -1363,8 +1363,8 @@
         },
         "-\u003d[ Saimon ]\u003d-": {
           "amountToKill": 0,
-          "killedAmount": 9,
-          "amountRemaining": -9
+          "killedAmount": 29,
+          "amountRemaining": -29
         },
         "-\u003d[ Devolarium ]\u003d-": {
           "amountToKill": 0,
@@ -1373,13 +1373,13 @@
         },
         "-\u003d[ Mordon ]\u003d-": {
           "amountToKill": 0,
-          "killedAmount": 9,
-          "amountRemaining": -9
+          "killedAmount": 27,
+          "amountRemaining": -27
         },
         "..::{ Boss Saimon }::..": {
           "amountToKill": 0,
-          "killedAmount": 3,
-          "amountRemaining": -3
+          "killedAmount": 8,
+          "amountRemaining": -8
         },
         "-\u003d[ Streuner ]\u003d-": {
           "amountToKill": 0,

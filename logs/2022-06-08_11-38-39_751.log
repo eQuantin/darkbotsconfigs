@@ -1,7 +1,0 @@
-[2022/06/08 11:38:40.375] Loaded startup properties file
-[2022/06/08 11:38:40.616] Auto logging in (1/2)
-[2022/06/08 11:38:40.806] Library file lib\captchasolver.jar not present
-[2022/06/08 11:38:40.806] No captcha resolver is configured, if you're not trying to use one you can safely ignore this message
-[2022/06/08 11:38:46.988] Loading spacemap (2/2)
-[2022/06/08 11:38:48.319] api lenght 111104
-[2022/06/08 11:38:56.919] Exit confirmation button pressed, exiting

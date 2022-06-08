@@ -1373,8 +1373,8 @@
         },
         "-\u003d[ Mordon ]\u003d-": {
           "amountToKill": 0,
-          "killedAmount": 8,
-          "amountRemaining": -8
+          "killedAmount": 9,
+          "amountRemaining": -9
         },
         "..::{ Boss Saimon }::..": {
           "amountToKill": 0,
