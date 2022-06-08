@@ -1,0 +1,1502 @@
+{
+  "AVOIDED": {
+    "91": {
+      "resolution": 30,
+      "data": "/////////////////////////38A8P8fAPwDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8BwD//wHA/////////////////////////w8\u003d"
+    },
+    "93": {
+      "resolution": 30,
+      "data": "//9/wP//H/D//wf8//8B//9/wP//H/D//wf8//8B//9/APgDAAD+AACAPwAA4A8AAPgDAAD+AACAPwAA4A8AAPgDAAAAAPADAAD8AAAAPwAAwA8AAPADAAD8/wAA/z8AwP8PAPD/AwD8/wAA/////w8\u003d"
+    },
+    "3": {
+      "resolution": 30,
+      "data": "AAAAAAAAAAAAAAAAAAAAAMABAABwAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "19": {
+      "resolution": 30,
+      "data": "////fwAAABgAAAAGAACAAQAAYAAAABgAAAAGAACAAQAAYAAAABgAAAAGAACAAQAAYAAAABgADgAGgAOAAeAAYAA4ABgAAAAGAACAAQAAYAAAABgAAAAGAACAAQAAYAAAABgAAAAGAACAAQAA4P///w8\u003d"
+    }
+  },
+  "PREFERRED": {
+    "91": {
+      "resolution": 30,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4AAAAHgAAgAcAAOABAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    },
+    "93": {
+      "resolution": 30,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9/AMD/HwDw/wcA/P8BAP9/AMD/HwDw/wcA/P8BAP9/AAAAAAA\u003d"
+    },
+    "3": {
+      "resolution": 30,
+      "data": "AAAAAAAAAMD////w//8//D/+D/+P/8P/4//w//8//P//D////8P////w//8//P//D////8P////w//8//P//D////8P////w//8//P//D////8P////w//8//P//D////8P////w//8/AAAAAAAAAAA\u003d"
+    },
+    "19": {
+      "resolution": 30,
+      "data": "AAAAgP///+f////5//9//v//n////+f////5//9//v//n////+f////5//9//v//n////+f/8f/5f/x//h//n//H/+f////5//9//v//n////+f////5//9//v//n////+f////5//9//v//HwAAAAA\u003d"
+    }
+  },
+  "SAFETY": {
+    "16": [],
+    "21": [],
+    "25": [],
+    "91": [],
+    "92": [],
+    "29": [],
+    "93": [
+      {
+        "type": "PORTAL",
+        "x": 2000,
+        "y": 17500,
+        "runMode": "NEVER",
+        "jumpMode": "NEVER"
+      }
+    ],
+    "17": [],
+    "13": [],
+    "4": [],
+    "3": [
+      {
+        "type": "PORTAL",
+        "x": 18500,
+        "y": 11500,
+        "runMode": "REPAIR_ONLY",
+        "jumpMode": "ESCAPING"
+      }
+    ],
+    "-1": [],
+    "1": [],
+    "2": [],
+    "19": [
+      {
+        "type": "PORTAL",
+        "x": 18500,
+        "y": 2000,
+        "runMode": "REPAIR_ONLY",
+        "jumpMode": "ESCAPING"
+      }
+    ],
+    "20": []
+  },
+  "PLAYER_INFOS": {},
+  "PLAYER_TAGS": [],
+  "UNRESOLVED": [],
+  "CUSTOM_CONFIGS": {
+    "eu.darkbot.popcorn.def.SampleModule": {
+      "BOOLEAN_VALUE": true,
+      "INTEGER_LIMIT": 1,
+      "PERCENTAGE_VALUE": 0.5,
+      "MOVE_SHIP": false
+    },
+    "eu.darkbot.popcorn.def.AntiPush": {
+      "DRAWFIRE_PAUSE_TIME": -1,
+      "MAX_DEATHS": 7,
+      "DEATH_PAUSE_TIME": -1
+    },
+    "eu.darkbot.popcorn.def.UserAgentUpdater": {
+      "USER_AGENT": "BigpointClient/1.6.7",
+      "NEXT_UPDATE": 1654560002910
+    },
+    "com.deeme.modules.PaladiumModule": {
+      "goPortalChange": true,
+      "sellOnDie": true,
+      "collectHangar": -1,
+      "sellHangar": -1,
+      "aditionalWaitingTime": 5
+    },
+    "com.deeme.modules.SentinelModule": {
+      "MASTER_ID": 0,
+      "followGroupLeader": true,
+      "ignoreSecurity": false,
+      "rangeToLider": 300,
+      "collectorActive": false,
+      "copyMasterFormation": false,
+      "useBestFormation": true,
+      "autoAttack": {
+        "helpAttackNPCs": true,
+        "helpAttackEnemyPlayers": true,
+        "helpAttackPlayers": true,
+        "autoAttackEnemies": false,
+        "rangeForEnemies": 100,
+        "defendFromNPCs": false
+      },
+      "autoCloak": {
+        "autoCloakShip": false,
+        "secondsOfWaiting": 10
+      }
+    },
+    "com.deeme.modules.PVPModule": {
+      "move": true,
+      "changeConfig": true,
+      "useRunConfig": true,
+      "useBestRocket": true,
+      "useBestFormation": true,
+      "rangeForEnemies": 100,
+      "useRSB": false,
+      "SAB": {
+        "ENABLED": false,
+        "KEY": "2",
+        "PERCENT": 0.8,
+        "NPC_AMOUNT": 12000
+      },
+      "ability": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "ISH": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "SMB": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "PEM": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "otherKey": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      }
+    },
+    "com.deeme.tasks.Discord": {
+      "intervalMessage": 10,
+      "discordName": "Stats",
+      "sendSidLink": false,
+      "sendSessionStats": false
+    },
+    "com.deeme.tasks.Ifttt": {
+      "intervalMessage": 10,
+      "iftttTriggerName": "",
+      "iftttApiKey": "",
+      "value1": "totalUridium",
+      "value2": "totalCredits",
+      "value3": "runningTime"
+    },
+    "com.deeme.tasks.Skylab": {
+      "sepromToSend": 0,
+      "promeriumToSend": 0,
+      "premium": false,
+      "forceCheck": false
+    },
+    "com.deeme.tasks.WeeklySchedule": {
+      "activate": false,
+      "Hours_Changes": {},
+      "updateHangarList": true,
+      "changeHangar": false,
+      "profile1": {
+        "BOT_PROFILE": "config"
+      },
+      "profile2": {
+        "BOT_PROFILE": "config"
+      },
+      "profile3": {
+        "BOT_PROFILE": "config"
+      },
+      "profile4": {
+        "BOT_PROFILE": "config"
+      }
+    },
+    "com.deeme.tasks.AutoChangeMap": {
+      "Maps_Changes": {}
+    },
+    "com.deeme.behaviours.Others": {
+      "maxDeathsKO": 0,
+      "reloadIfCrash": false
+    },
+    "com.deeme.behaviours.DefenseMode": {
+      "respondAttacks": true,
+      "helpAllies": true,
+      "helpGroup": true,
+      "goToGroup": false,
+      "helpEveryone": true,
+      "helpAttack": false,
+      "movementMode": 0,
+      "useBestRocket": false,
+      "useBestFormation": false,
+      "useRSB": false,
+      "SAB": {
+        "ENABLED": false,
+        "KEY": "2",
+        "PERCENT": 0.8,
+        "NPC_AMOUNT": 12000
+      },
+      "ability": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "ISH": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "SMB": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "PEM": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "otherKey": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "useSecondConfig": true,
+      "healthToChange": 0.2,
+      "secondConfig": {
+        "CONFIG": 1
+      }
+    },
+    "com.punikekk.modules.GalaxyModule": {
+      "MIN_LIVES": 0,
+      "GALAXY_INFO": {},
+      "GENERAL": {
+        "ATTACK_CONFIG": {
+          "CONFIG": 1
+        },
+        "REPAIR_CONFIG": {
+          "CONFIG": 1
+        },
+        "ROAM_CONFIG": {
+          "CONFIG": 1
+        },
+        "END_GATE_CONFIG": {
+          "CONFIG": 1
+        },
+        "REPAIR": {
+          "min": 0.6,
+          "max": 0.9
+        },
+        "COLLECTING_RADIUS": 150,
+        "SAFE_RADIUS": 750,
+        "DONT_LET_FLY_CORNER": false,
+        "ESCAPING_RADIUS_MODIFIER": 0.9,
+        "SAFETY_ATTACK_KEY": "\u0011",
+        "REFRESH_AFTER": 5,
+        "REFRESH_NPC_BUG": 0,
+        "IGNORE_NPC_FOR": 60
+      },
+      "PET": {
+        "MODE": 0,
+        "PET_BOX_COLLECTING_ONLY": true
+      },
+      "KAMIKAZE": {
+        "ENABLED": false,
+        "CONFIG": {
+          "CONFIG": 1
+        },
+        "REPAIR_HP": {
+          "min": 0.65,
+          "max": 0.9
+        },
+        "REPAIR_SHIELD": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "WAIT": 30,
+        "MIN_AMOUNT": 5
+      }
+    },
+    "com.punikekk.modules.GoPModule": {
+      "EASY": false,
+      "BEACON_CONFIG": {
+        "CONFIG": 1
+      },
+      "ATTACK_CONFIG": {
+        "CONFIG": 1
+      },
+      "USE_SMART_FORMATION": false,
+      "COLLECTING_RADIUS": 150,
+      "COLLECT_RADIUS_AFTER": 1500,
+      "REPAIR": {
+        "min": 0.4,
+        "max": 0.9
+      }
+    },
+    "com.punikekk.modules.LoWModule": {
+      "REPAIR": {
+        "min": 0.5,
+        "max": 0.9
+      },
+      "ATTACK_CONFIG": {
+        "CONFIG": 1
+      },
+      "REPAIR_CONFIG": {
+        "CONFIG": 1
+      },
+      "ROAM_CONFIG": {
+        "CONFIG": 1
+      },
+      "WAIT_FOR_ALL_MEMBERS": true,
+      "FALCON_LIFE_SAVER": {
+        "USE_EMP_AT": 0.0,
+        "USE_ISH_AT": 0.0,
+        "USE_ORCUS_ABILITY_AT": 0.0
+      }
+    },
+    "com.punikekk.modules.eternal.EternalGate": {
+      "ATTACK_KEY": "\u0011",
+      "REPAIR": {
+        "min": 0.6,
+        "max": 0.9
+      },
+      "SHIELD": 0.4,
+      "SUICIDE_AT_WAVE": 0,
+      "FARM_KEYS_TO": 5,
+      "NPC_LOCK_DIFF": 100,
+      "REJUMP_AFTER_MINES_WAVE": false,
+      "COLLECT_AFTER_WAVE": false,
+      "COLLECT_RADIUS": 150,
+      "ISH": {
+        "NPC_TYPE_TRIGGER": [],
+        "HEALTH_BELOW": 0.5,
+        "TURBO_MINE_CPU": false
+      },
+      "EMP": {
+        "NPC_TYPE_TRIGGER": [],
+        "HEALTH_BELOW": 0.5
+      },
+      "PET": {
+        "NPC": false,
+        "STROKELIGHT": false,
+        "REPAIR": false
+      },
+      "BOSS": {
+        "BOSS_CONFIG": "DISABLED",
+        "VETERAN_CONFIG_TYPE": "DISABLED",
+        "USE_VETERAN_HP": 200000
+      },
+      "LEECH": {
+        "START_USING_AT_WAVE": 98,
+        "EVERY_CYCLE": true
+      },
+      "SOLACE": {},
+      "ORCUS": {
+        "NPC_TYPE_TRIGGER": [
+          "UBER_PROTEGIT",
+          "STROKELIGHT"
+        ]
+      },
+      "MISCELLANEOUS": {
+        "JUMP_AND_PAUSE": "",
+        "TRY_TO_SPLIT_UK": true
+      },
+      "ETERNAL_INFO": {}
+    },
+    "com.punikekk.modules.hades.HadesModule": {
+      "REPAIR": {
+        "min": 0.5,
+        "max": 0.9
+      },
+      "ENG_GATE_CONFIG": {
+        "CONFIG": 1
+      },
+      "SWITCH_END_CONFIG": 10.0,
+      "COLLECT_RADIUS": 100,
+      "WAIT_PLAYERS": false,
+      "KAMIKAZE": {
+        "ENABLED": false,
+        "CONFIG": {
+          "CONFIG": 1
+        },
+        "WAIT": 30,
+        "MIN_AMOUNT": 5
+      }
+    },
+    "com.punikekk.modules.follow.FollowModule": {
+      "REPAIR": {
+        "min": 0.15,
+        "max": 0.8
+      },
+      "REPAIR_SHIELD": 0.0,
+      "KEEP_ATTACK_CONFIG_FOR": 3,
+      "FOLLOW_ID": 0,
+      "ATTACK_FLAGS": [
+        "ATTACK_PLAYER",
+        "ATTACK_NPC",
+        "DEFEND_MASTER",
+        "PRIORITIZE_DEFEND_MASTER",
+        "DEFEND_YOURSELF"
+      ],
+      "FOLLOW_FLAGS": [
+        "PLAYER_TAG_ENABLED",
+        "GROUP_MASTER_ENABLED",
+        "ID_MASTER_ENABLED",
+        "STRICT_MODE_DESTINATION"
+      ],
+      "MAP": {
+        "REMOVE_BASE_AVOIDANCE": false,
+        "SHOULD_WAIT": true,
+        "ENABLED": false,
+        "REMEMBER_MAP": true,
+        "WAIT_MAP": 26
+      },
+      "PET": {
+        "USE_COMBO_REPAIR": true,
+        "MIN_HP_TO_USE_COMBO": 150000,
+        "DEFAULT_MODULE": 2
+      },
+      "LIFE_SAVER": {
+        "USE_ON_ALIENS": false,
+        "RESPECT_EXTRA_FLAGS": false,
+        "USE_EMP_AT": 0.0,
+        "USE_ISH_AT": 0.0,
+        "USE_RUN_AT": 0.0,
+        "USE_ORCUS_ABILITY_AT": 0.0
+      },
+      "COLLECTOR": {
+        "ENABLED": false,
+        "COLLECT_ON_ATTACKING": false,
+        "BEHEMOTH_BOX_CONFIG": {
+          "CONFIG": 1
+        },
+        "COLLECT_RADIUS": 200
+      },
+      "MISCELLANEOUS": {
+        "COPY_MASTER_FORMATIONS": false,
+        "USE_RSB_ON_PLAYERS": false,
+        "USE_PIB_ON_PLAYERS": false,
+        "KEEP_AT_MASTER_DEAD_LOC": false,
+        "FOLLOW_MASTER_MAP": false,
+        "KEEP_ATTACK_IN_PREFERRED": false,
+        "USE_ANTI_Z1": false,
+        "CLOAK_DIFF_LAST_ATTACK": 0,
+        "RADIUS_AUTO_ATTACK": 1500
+      }
+    },
+    "com.punikekk.modules.spawner.ChaosSpawner": {
+      "FROM_OTHERS_DISTANCE": 800,
+      "WAIT_AT_PORTAL": true,
+      "ATTACK_AGGRESSIVE_NPC": true
+    },
+    "com.punikekk.tasks.helper.GalaxyHelper": {
+      "UPDATE_EVERY": 30
+    },
+    "com.punikekk.tasks.skylab.SkylabBuilder": {
+      "SKYLAB_INFO": {},
+      "UPDATE_DELAY": 5,
+      "RESET_ON_RESTART": false,
+      "BUY_ROBOTS": false,
+      "BUY_URI_ROBOTS": false,
+      "DISABLE_SEPROM_REFINERY": false,
+      "DISABLE_TASK_ON_FULL": false
+    },
+    "com.hii666.modules.traveller.Map42Traveller": {
+      "TRAVEL": {
+        "CONFIG": 1,
+        "FORMATION": "7"
+      },
+      "REPAIR_RUN": {
+        "CONFIG": 1,
+        "FORMATION": "6"
+      },
+      "JUMP_KEY": "0",
+      "KEEP_TRAVELLING": true,
+      "SURVIVE": true,
+      "PLAY": true
+    },
+    "com.hii666.tasks.autobuy.AutoBuy": {
+      "LCB": {
+        "BUY_X1": false,
+        "AMOUNT_X1": 100000,
+        "MIN_X1": 100000
+      },
+      "PLT": {
+        "BUY_PLT": false,
+        "AMOUNT_PLT": 100000,
+        "MIN_PLT": 50000
+      },
+      "ECO": {
+        "BUY_ECO": false,
+        "AMOUNT_ECO": 20000,
+        "MIN_ECO": 5000
+      },
+      "FUEL": {
+        "BUY_FUEL": false,
+        "AMOUNT_FUEL": 20000,
+        "MIN_FUEL": 10000
+      },
+      "BOOSTER": {
+        "BOOSTER_INFO": {
+          "EP-B01": {
+            "autoBuy": false
+          },
+          "EP-B02": {
+            "autoBuy": false
+          },
+          "HON-B01": {
+            "autoBuy": false
+          },
+          "HON-B02": {
+            "autoBuy": false
+          },
+          "DMG-B01": {
+            "autoBuy": false
+          },
+          "DMG-B02": {
+            "autoBuy": false
+          },
+          "SHD-B01": {
+            "autoBuy": false
+          },
+          "SHD-B02": {
+            "autoBuy": false
+          },
+          "HP-B01": {
+            "autoBuy": false
+          },
+          "HP-B02": {
+            "autoBuy": false
+          },
+          "REP-B01": {
+            "autoBuy": false
+          },
+          "REP-B02": {
+            "autoBuy": false
+          },
+          "SREG-B01": {
+            "autoBuy": false
+          },
+          "SREG-B02": {
+            "autoBuy": false
+          },
+          "RES-B01": {
+            "autoBuy": false
+          },
+          "RES-B02": {
+            "autoBuy": false
+          },
+          "CD-B01": {
+            "autoBuy": false
+          },
+          "CD-B02": {
+            "autoBuy": false
+          },
+          "PRC-B00": {
+            "autoBuy": false
+          }
+        }
+      }
+    },
+    "com.hii666.behaviours.customEvent.CustomEvent": {
+      "CUSTOM_ACTIONS": {}
+    },
+    "com.hii666.behaviours.formationChanger.FormationChanger": {
+      "CHANGE": false,
+      "OFFENSIVE_FORMATION": "8",
+      "LOW_HP_FORMATION": "9",
+      "LOW_HP": 0.25,
+      "MIN_SHD": 0.7,
+      "USING_SAB": true
+    },
+    "com.hii666.behaviours.petRepair.PetRepair": {
+      "REPAIR_PET": false,
+      "DEFAULT_MODULE": 1,
+      "HP_LINK": false,
+      "LOW_HP": 25,
+      "START_SEC": 20
+    },
+    "com.hii666.behaviours.petMaxDeaths.PetMaxDeath": {
+      "LIMIT_DEATHS": false,
+      "MAX_DEATHS": 666
+    },
+    "com.hii666.tasks.stats.Stats": {
+      "settings": {
+        "UPDATE_STATS": 3,
+        "STATS": true,
+        "EQUIPMENT": true,
+        "NPC": true,
+        "DRONES": true,
+        "SEARCH_BAR_SETTINGS": {
+          "STATS_BAR": true,
+          "NPC_BAR": true
+        },
+        "CHARTS_SETTINGS": {
+          "DRAW_CHARTS": true,
+          "CHARTS_TO_DRAW": {
+            "URI": true,
+            "URI_H": true,
+            "CR": true,
+            "CR_H": true,
+            "DEATHS": true,
+            "EXP": true,
+            "EXP_H": true,
+            "HON": true,
+            "HON_H": true,
+            "CARGO": true
+          },
+          "EXPERT_SETTINGS": {
+            "SHOW_MARKERS": false,
+            "VALUES_TO_KEEP": 1000,
+            "UPDATE_TIME": 1500,
+            "PROCESSING": true,
+            "TOLERANCE": 0.4,
+            "SEC_TOLERANCE": 0.3,
+            "MEAN_CONSIDER": 3,
+            "MEAN_TOLERANCE": 0.06,
+            "INCREASE_TOLERANCE": true
+          }
+        }
+      }
+    },
+    "com.hii666.behaviours.PBC.PBCollector": {
+      "COLLECT": false,
+      "MIN_URI": 0
+    },
+    "eu.darkbot.fabio.modules.BotUpdater": {
+      "useFileProperties": false,
+      "autoHideApi": false
+    },
+    "eu.darkbot.fabio.modules.AutoRestart": {
+      "Time": "05:35:00",
+      "configs": "config",
+      "disableInRestart": false,
+      "autoHideApi": false
+    },
+    "eu.darkbot.fabio.modules.BattlerayFarmer": {
+      "killAlienWhenFly": true,
+      "pickPalladium": false,
+      "killSaboteur": false
+    },
+    "eu.darkbot.teyrox.CubiModule": {
+      "KRISTALLINS": true
+    },
+    "eu.darkbot.teyrox.NPCRadiusList": {},
+    "eu.darkbot.teyrox.BOXList": {}
+  },
+  "PLUGIN_INFOS": {
+    "Default plugin_by_Popcorn": {
+      "DISABLED_FEATURES": [],
+      "ENABLED_FEATURES": [
+        "eu.darkbot.popcorn.def.SampleModule",
+        "eu.darkbot.popcorn.def.AntiPush",
+        "eu.darkbot.popcorn.def.CaptchaPicker",
+        "eu.darkbot.popcorn.def.FlashPatcher",
+        "eu.darkbot.popcorn.def.UserAgentUpdater",
+        "eu.darkbot.popcorn.def.PalladiumModule"
+      ]
+    },
+    "Schifo_by_Fabio": {
+      "DISABLED_FEATURES": [],
+      "ENABLED_FEATURES": []
+    },
+    "DmPlugin_by_Dm94Dani": {
+      "DISABLED_FEATURES": [],
+      "ENABLED_FEATURES": []
+    },
+    "Kekka Reloaded_by_Punisher": {
+      "DISABLED_FEATURES": [],
+      "ENABLED_FEATURES": []
+    },
+    "Osiris_by_hii666": {
+      "DISABLED_FEATURES": [],
+      "ENABLED_FEATURES": []
+    },
+    "TYX Plugin_by_TeYroX": {
+      "DISABLED_FEATURES": [],
+      "ENABLED_FEATURES": []
+    }
+  },
+  "GENERAL": {
+    "CURRENT_MODULE": "com.github.manolo8.darkbot.modules.LootNCollectorModule",
+    "WORKING_MAP": 19,
+    "OFFENSIVE": {
+      "CONFIG": 1,
+      "FORMATION": "E"
+    },
+    "ROAM": {
+      "CONFIG": 2,
+      "FORMATION": "E"
+    },
+    "RUN": {
+      "CONFIG": 2,
+      "FORMATION": "E"
+    },
+    "SAFETY": {
+      "REPAIR_HP_RANGE": {
+        "min": 0.3,
+        "max": 0.95
+      },
+      "REPAIR_HP_NO_NPC": 0.5,
+      "REPAIR_TO_SHIELD": 1.0,
+      "REPAIR": {
+        "CONFIG": 1,
+        "FORMATION": "E"
+      },
+      "MAX_DEATHS": 100,
+      "REVIVE_LOCATION": 2,
+      "REVIVE": "BASE",
+      "WAIT_BEFORE_REVIVE": 5,
+      "WAIT_AFTER_REVIVE": 60
+    },
+    "RUNNING": {
+      "RUN_FROM_ENEMIES": false,
+      "REMEMBER_ENEMIES_FOR": 3000,
+      "RUN_FROM_ENEMIES_SIGHT": false,
+      "STOP_RUNNING_NO_SIGHT": true,
+      "MAX_SIGHT_DISTANCE": 4000,
+      "SHIP_ABILITY_MIN": 1500,
+      "RUN_FURTHEST_PORT": 1500
+    },
+    "ROAMING": {
+      "KEEP": true,
+      "SEQUENTIAL": false,
+      "ONLY_KILL_PREFERRED": true,
+      "ENEMY_CBS_INVISIBLE": false
+    }
+  },
+  "COLLECT": {
+    "STAY_AWAY_FROM_ENEMIES": true,
+    "AUTO_CLOACK": false,
+    "RADIUS": 600,
+    "IGNORE_CONTESTED_BOXES": true,
+    "BOX_INFOS": {
+      "PIRATE_BOOTY": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "AURUS_BOX": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "FROM_SHIP": {
+        "collect": true,
+        "waitTime": 800,
+        "priority": 1
+      },
+      "ore_8": {
+        "collect": false,
+        "waitTime": 800,
+        "priority": 0
+      },
+      "PIRATE_BOOTY_BLUE": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "BONUS_BOX": {
+        "collect": true,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "PIRATE_BOOTY_RED": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "BIFENON": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "MUCOSUM": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "ore_1": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "ore_2": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "SCRAPIUM": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 1
+      },
+      "POISON_PUSAT_BOX_BLACK": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "BONUS_BOX_RED": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "ore_0": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "PRISMATIUM": {
+        "collect": true,
+        "waitTime": 0,
+        "priority": 0
+      }
+    }
+  },
+  "LOOT": {
+    "SAB": {
+      "ENABLED": false,
+      "KEY": "2",
+      "PERCENT": 0.8,
+      "NPC_AMOUNT": 12000
+    },
+    "RSB": {
+      "ENABLED": false,
+      "KEY": "3",
+      "AMMO_REFRESH": 3500
+    },
+    "AMMO_KEY": "1",
+    "SHIP_ABILITY": "3",
+    "SHIP_ABILITY_MIN": 150000,
+    "MAX_CIRCLE_ITERATIONS": 5,
+    "RUN_CONFIG_IN_CIRCLE": true,
+    "GROUP_NPCS": true,
+    "NPC_INFOS": {
+      "-\u003d[ Lordakium ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          21,
+          25,
+          17
+        ]
+      },
+      "-\u003d[ Saboteur ]\u003d-": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          91,
+          92,
+          93
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          21,
+          25,
+          17,
+          4,
+          3,
+          2
+        ]
+      },
+      "..::{ Boss Kristallon }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29,
+          19
+        ]
+      },
+      "-\u003d[ Interceptor ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          91,
+          92,
+          93,
+          29,
+          16
+        ]
+      },
+      "( Uber Saboteur )": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          92
+        ]
+      },
+      "( Uber Battleray )": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "..::{ Boss Devolarium }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "attackKey": "2",
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29,
+          3
+        ]
+      },
+      "..::{ Boss Kristallin }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29,
+          19
+        ]
+      },
+      "-\u003d[ Barracuda ]\u003d-": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          91,
+          92,
+          93
+        ]
+      },
+      "-\u003d[ Deadly Battleray ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          16,
+          29,
+          13
+        ]
+      },
+      "..::{ Boss Lordakium }::...": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          21
+        ]
+      },
+      "( UberStreuner )": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "( UberStreuneR )": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          25,
+          17
+        ]
+      },
+      "..::{ Boss Mordon }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29,
+          3
+        ]
+      },
+      "( Uber Annihilator )": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          92
+        ]
+      },
+      "-\u003d[ Annihilator ]\u003d-": {
+        "radius": 575.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          91,
+          92,
+          93
+        ]
+      },
+      "-\u003d[ Battleray ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          93
+        ]
+      },
+      "( Uber Barracuda )": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          91,
+          92
+        ]
+      },
+      "( UberKristallin )": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          3,
+          4
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          3
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          3,
+          4
+        ]
+      },
+      "..::{ Boss Saimon }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          3
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          1,
+          2
+        ]
+      },
+      "-\u003d[ Recruit Streuner ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          1,
+          2
+        ]
+      },
+      "..::{ Boss Streuner }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          2
+        ]
+      },
+      "-\u003d[ Aider Streuner ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          2
+        ]
+      },
+      "..::{ Boss Sibelonit }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          17
+        ]
+      },
+      "* Lordakium Spore *": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          17
+        ]
+      },
+      "-\u003d[ Blighted Kristallon ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          19
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d-": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          19
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          19
+        ]
+      },
+      "\u003c\u003d\u003c Blighted Gygerthrall \u003e\u003d\u003e": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          19
+        ]
+      },
+      "..::{ Boss StreuneR }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          20
+        ]
+      },
+      "\\\\ Attitude XIII //": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          19
+        ]
+      }
+    },
+    "NPC_DISTANCE_IGNORE": 3000
+  },
+  "PET": {
+    "ENABLED": false
+  },
+  "GROUP": {
+    "ACCEPT_INVITES": false,
+    "OPEN_INVITES": false,
+    "LEAVE_NO_WHITELISTED": false
+  },
+  "MISCELLANEOUS": {
+    "REFRESH_AFTER_REVIVE": false,
+    "REFRESH_TIME": 60,
+    "PAUSE_FOR": 0,
+    "RESET_REFRESH": true,
+    "DRONE_REPAIR_PERCENTAGE": 0.9,
+    "HONOR_LOST_EXACT": true,
+    "LOG_CHAT": false,
+    "LOG_DEATHS": false,
+    "AVOID_MINES": true,
+    "USERNAME_ON_TITLE": false,
+    "AUTO_REFINE": false
+  },
+  "BOT_SETTINGS": {
+    "BOT_GUI": {
+      "LOCALE": "en",
+      "CONFIRM_EXIT": true,
+      "SAVE_GUI_POS": true,
+      "BUTTON_SIZE": 4,
+      "ALWAYS_ON_TOP": false,
+      "MAIN_GUI_WINDOW": {
+        "x": -2147483648,
+        "y": -2147483648,
+        "width": 640,
+        "height": 480
+      },
+      "CONFIG_GUI_WINDOW": {
+        "x": -2147483648,
+        "y": -2147483648,
+        "width": 640,
+        "height": 480
+      }
+    },
+    "API_CONFIG": {
+      "BROWSER_API": "DARK_BOAT",
+      "FULLY_HIDE_API": true,
+      "FORCE_GAME_LANGUAGE": false,
+      "ENFORCE_HW_ACCEL": true,
+      "MAX_FPS": 0,
+      "DARK_HOOK_FLAGS": [
+        "TRAVEL",
+        "COLLECT",
+        "REFINE"
+      ],
+      "width": 1280,
+      "height": 800
+    },
+    "MAP_DISPLAY": {
+      "TOGGLE": [
+        "HERO_NAME",
+        "HP_SHIELD_NUM",
+        "ZONES",
+        "STATS_AREA",
+        "GROUP_AREA",
+        "GROUP_NAMES",
+        "BOOSTER_AREA"
+      ],
+      "TRAIL_LENGTH": 15,
+      "MAP_START_STOP": false,
+      "cs": {
+        "BACKGROUND": "#FF263238",
+        "TEXT": "#FFF2F2F2",
+        "TEXT_DARK": "#FFBBBBBB",
+        "GOING": "#FF8F9BFF",
+        "PORTALS": "#FFAEAEAE",
+        "HERO": "#FF22CC22",
+        "TRAIL_BASE": "#FFE0E0E0",
+        "FUEL": "#FFF2F2F2",
+        "BOXES": "#FFBBB830",
+        "MINES": "#FFFF8000",
+        "ALLIES": "#FF29B6F6",
+        "ENEMIES": "#FFD50000",
+        "NPCS": "#FFAA4040",
+        "TARGET": "#FF762C2C",
+        "PET": "#FF004C8C",
+        "PET_IN": "#FFC56000",
+        "HEALTH": "#FF388E3C",
+        "NANO_HULL": "#FFD0D024",
+        "SHIELD": "#FF0288D1",
+        "METEROID": "#FFAAAAAA",
+        "PING": "#2000FF00",
+        "PING_BORDER": "#8000FF00",
+        "BARRIER": "#20FFFFFF",
+        "BARRIER_BORDER": "#80FFFFFF",
+        "NO_CLOACK": "#2018A0FF",
+        "PREFER": "#2000FF80",
+        "AVOID": "#20FF0000",
+        "SAFETY": "#601080FF",
+        "BASES": "#FF00FF80",
+        "BASE_SPOTS": "#2000FF80",
+        "UNKNOWN": "#FF7C05D1",
+        "TEXTS_BACKGROUND": "#80263238",
+        "ACTION_BUTTON": "#A0FFFFFF",
+        "DARKEN_BACK": "#60000000",
+        "ZONE_EDITOR": {
+          "LINES": "#80808080",
+          "HOVERING": "#FF0096C8",
+          "SELECTING": "#FF0080FF",
+          "ZONE": "#4000FF80"
+        },
+        "SAFETY_EDITOR": {
+          "ZONE_HIGHLIGHT": "#6000FF80",
+          "ZONE_SELECTED": "#8000FF80",
+          "ZONE_SOLID": "#FF00FF80"
+        },
+        "FONTS": {
+          "BIG": "32:Consolas",
+          "MID": "18:SansSerif",
+          "SMALL": "12:Consolas",
+          "TINY": "9:SansSerif"
+        }
+      }
+    },
+    "CUSTOM_BACKGROUND": {
+      "ENABLED": false,
+      "USE_GAME_BACKGROUND": false,
+      "OPACITY": 0.30000001192092896,
+      "IMAGE": {}
+    },
+    "OTHER": {
+      "DISABLE_MASTER_PASSWORD": false,
+      "ZONE_RESOLUTION": 30,
+      "MIN_TICK": 15,
+      "DEV_STUFF": false
+    }
+  },
+  "EXTRA": {
+    "ACTION_INFOS": {}
+  }
+}

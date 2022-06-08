@@ -1,0 +1,9 @@
+[2022/06/08 10:33:46.041] Downloading missing or outdated library file: lib/verifier.jar
+[2022/06/08 10:33:46.268] Downloading missing or outdated library file: plugins/DefaultPlugin.jar
+[2022/06/08 10:33:46.736] Loaded startup properties file
+[2022/06/08 10:33:46.982] Downloading missing or outdated library file: lib/DarkBoatAPI.dll
+[2022/06/08 10:33:47.205] Auto logging in (1/2)
+[2022/06/08 10:33:47.377] Library file lib\captchasolver.jar not present
+[2022/06/08 10:33:47.377] No captcha resolver is configured, if you're not trying to use one you can safely ignore this message
+[2022/06/08 10:33:53.556] Loading spacemap (2/2)
+[2022/06/08 10:33:58.999] Exit confirmation button pressed, exiting

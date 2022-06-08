@@ -1,0 +1,1272 @@
+[2022/06/08 11:19:53.648] Loaded startup properties file
+[2022/06/08 11:19:53.904] Auto logging in (1/2)
+[2022/06/08 11:19:54.074] Library file lib\captchasolver.jar not present
+[2022/06/08 11:19:54.074] No captcha resolver is configured, if you're not trying to use one you can safely ignore this message
+[2022/06/08 11:20:00.323] Loading spacemap (2/2)
+[2022/06/08 11:20:01.979] api lenght 111104
+[2022/06/08 11:20:27.459] You have been destroyed by: fr2_Eazy-Money
+[2022/06/08 11:20:33.046] Bienvenue dans le système INTEX
+[2022/06/08 11:20:34.686] Amélioration automatique des générateurs de boucliers par l'intermédiaire du CPU-booster de générateurs.
+[2022/06/08 11:20:34.686] Amélioration automatique du générateur de réacteurs par l'intermédiaire du CPU-booster de générateurs.
+java.io.IOException: Server returned HTTP response code: 522 for URL: https://darkbot.eu/TYXPlugin/plugin.json
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1924)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:250)
+	at java.base/java.net.URL.openStream(URL.java:1165)
+	at com.github.manolo8.darkbot.extensions.plugins.PluginUpdater.findUpdate(PluginUpdater.java:116)
+	at com.github.manolo8.darkbot.extensions.plugins.PluginUpdater.checkUpdate(PluginUpdater.java:94)
+	at com.github.manolo8.darkbot.extensions.plugins.PluginUpdater.access$200(PluginUpdater.java:21)
+	at com.github.manolo8.darkbot.extensions.plugins.PluginUpdater$2.doInBackground(PluginUpdater.java:77)
+	at com.github.manolo8.darkbot.extensions.plugins.PluginUpdater$2.doInBackground(PluginUpdater.java:65)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2022/06/08 11:20:41.063] Checked/repaired drones, all successful: true
+[2022/06/08 11:20:50.458] SKYLAB SENDER: Cargo Sent
+[2022/06/08 11:21:48.659] Amélioration automatique des générateurs de boucliers par l'intermédiaire du CPU-booster de générateurs.
+[2022/06/08 11:22:53.390] Saut impossible ! Pas de portail de sauts à proximité.
+[2022/06/08 11:24:55.142] Hors de portée
+[2022/06/08 11:24:55.430] Le combat continue.
+[2022/06/08 11:24:55.593] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:24:55.593] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:24:55.593] Vous avez reçu 800 Crédits.
+[2022/06/08 11:24:55.593] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:24:56.611] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:24:56.611] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:24:56.611] Vous avez reçu 800 Crédits.
+[2022/06/08 11:24:56.611] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:24:57.628] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:24:57.653] Matières premières raffinées automatiquement.
+[2022/06/08 11:24:58.217] Hors de portée
+[2022/06/08 11:24:58.424] Le combat continue.
+[2022/06/08 11:24:59.056] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:24:59.549] Hors de portée
+[2022/06/08 11:24:59.612] Matières premières raffinées automatiquement.
+[2022/06/08 11:24:59.628] Le combat continue.
+[2022/06/08 11:25:04.673] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:25:04.674] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:25:04.674] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:25:04.674] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:25:05.382] Hors de portée
+[2022/06/08 11:25:05.703] Le combat continue.
+[2022/06/08 11:25:06.228] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:25:06.609] Matières premières raffinées automatiquement.
+[2022/06/08 11:25:11.604] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:25:11.604] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:25:11.604] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:25:11.604] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:25:11.912] Hors de portée
+[2022/06/08 11:25:12.214] Le combat continue.
+[2022/06/08 11:25:13.588] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:25:13.588] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:25:13.588] Vous avez reçu 800 Crédits.
+[2022/06/08 11:25:13.588] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:25:14.744] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:25:15.651] Matières premières raffinées automatiquement.
+[2022/06/08 11:25:15.737] Hors de portée
+[2022/06/08 11:25:16.240] Le combat continue.
+[2022/06/08 11:25:19.679] Aptitude Singularité activée.
+[2022/06/08 11:25:30.605] Vous avez reçu 12.800 points d'expérience.
+[2022/06/08 11:25:30.621] Vous avez gagné 64 points d'honneur.
+[2022/06/08 11:25:30.621] Vous avez reçu 25.600 Crédits.
+[2022/06/08 11:25:30.621] Vous avez reçu 32 cristaux d'Uridium.
+[2022/06/08 11:25:30.621] L'aptitude Singularité n'est plus en action.
+[2022/06/08 11:25:30.972] Hors de portée
+[2022/06/08 11:25:31.305] Le combat continue.
+[2022/06/08 11:25:35.587] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:25:35.587] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:25:35.587] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:25:35.603] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:25:37.133] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:25:37.610] Matières premières raffinées automatiquement.
+[2022/06/08 11:25:38.060] Hors de portée
+[2022/06/08 11:25:38.469] Le combat continue.
+[2022/06/08 11:25:43.586] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:25:43.586] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:25:43.586] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:25:43.602] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:25:44.791] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:25:45.601] Matières premières raffinées automatiquement.
+[2022/06/08 11:25:46.602] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:25:46.602] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:25:46.602] Vous avez reçu 800 Crédits.
+[2022/06/08 11:25:46.618] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:25:47.448] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:25:47.655] Matières premières raffinées automatiquement.
+[2022/06/08 11:25:47.750] Hors de portée
+[2022/06/08 11:25:48.061] Le combat continue.
+[2022/06/08 11:25:50.588] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:25:50.588] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:25:50.588] Vous avez reçu 800 Crédits.
+[2022/06/08 11:25:50.588] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:25:55.375] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:25:55.582] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:25:55.598] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:25:55.598] Vous avez reçu 800 Crédits.
+[2022/06/08 11:25:55.598] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:25:55.614] Matières premières raffinées automatiquement.
+[2022/06/08 11:25:57.836] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:25:58.600] Matières premières raffinées automatiquement.
+[2022/06/08 11:26:01.876] Hors de portée
+[2022/06/08 11:26:02.581] Le combat continue.
+[2022/06/08 11:26:02.676] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:26:03.626] Matières premières raffinées automatiquement.
+[2022/06/08 11:26:05.485] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:26:05.602] Matières premières raffinées automatiquement.
+[2022/06/08 11:26:05.888] Hors de portée
+[2022/06/08 11:26:05.967] Le combat continue.
+[2022/06/08 11:26:08.613] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:26:08.613] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:26:08.629] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:26:08.629] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:26:09.243] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:26:09.604] Matières premières raffinées automatiquement.
+[2022/06/08 11:26:12.591] Hors de portée
+[2022/06/08 11:26:13.380] Le combat continue.
+[2022/06/08 11:26:17.582] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:26:17.598] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:26:17.598] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:26:17.598] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:26:19.224] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:26:19.612] Matières premières raffinées automatiquement.
+[2022/06/08 11:26:25.753] Hors de portée
+[2022/06/08 11:26:26.161] Le combat continue.
+[2022/06/08 11:26:30.609] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:26:30.609] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:26:30.609] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:26:30.609] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:26:31.797] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:26:32.646] Matières premières raffinées automatiquement.
+[2022/06/08 11:26:35.759] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:26:36.610] Matières premières raffinées automatiquement.
+[2022/06/08 11:26:37.396] Hors de portée
+[2022/06/08 11:26:37.689] Le combat continue.
+[2022/06/08 11:26:56.587] Vous avez reçu 12.800 points d'expérience.
+[2022/06/08 11:26:56.587] Vous avez gagné 64 points d'honneur.
+[2022/06/08 11:26:56.587] Vous avez reçu 25.600 Crédits.
+[2022/06/08 11:26:56.603] Vous avez reçu 32 cristaux d'Uridium.
+[2022/06/08 11:26:58.838] Vous avez extrait des matières premières :
+320 Terbium
+320 Endurium
+4 Xenomit
+32 Duranium
+320 Prometium
+32 Prometid
+8 Promerium
+[2022/06/08 11:26:59.608] Matières premières raffinées automatiquement.
+[2022/06/08 11:27:00.385] Hors de portée
+[2022/06/08 11:27:00.918] Le combat continue.
+[2022/06/08 11:27:02.585] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:27:02.585] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:27:02.585] Vous avez reçu 800 Crédits.
+[2022/06/08 11:27:02.601] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:27:03.495] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:27:03.601] Matières premières raffinées automatiquement.
+[2022/06/08 11:27:20.589] Vous avez reçu 12.800 points d'expérience.
+[2022/06/08 11:27:20.589] Vous avez gagné 64 points d'honneur.
+[2022/06/08 11:27:20.589] Vous avez reçu 25.600 Crédits.
+[2022/06/08 11:27:20.589] Vous avez reçu 32 cristaux d'Uridium.
+[2022/06/08 11:27:21.213] L'attaque contre -=[ Saimon ]=- a été interrompue.
+[2022/06/08 11:27:21.213] L'attaque contre -=[ Saimon ]=- a été interrompue.
+[2022/06/08 11:27:22.600] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:27:22.600] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:27:22.600] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:27:22.600] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:27:23.832] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:27:24.604] Matières premières raffinées automatiquement.
+[2022/06/08 11:27:29.200] Hors de portée
+[2022/06/08 11:27:30.044] Le combat continue.
+[2022/06/08 11:27:32.585] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:27:32.585] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:27:32.585] Vous avez reçu 800 Crédits.
+[2022/06/08 11:27:32.585] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:27:32.884] Hors de portée
+[2022/06/08 11:27:33.388] Le combat continue.
+[2022/06/08 11:27:37.586] Vous avez encore un message non lu dans votre boîte de réception !
+[2022/06/08 11:27:39.596] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:27:39.596] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:27:39.596] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:27:39.596] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:27:41.284] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:27:41.588] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:27:41.588] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:27:41.588] Vous avez reçu 800 Crédits.
+[2022/06/08 11:27:41.588] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:27:41.620] Matières premières raffinées automatiquement.
+[2022/06/08 11:27:42.522] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:27:42.599] Matières premières raffinées automatiquement.
+[2022/06/08 11:27:46.589] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:27:46.605] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:27:46.605] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:27:46.605] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:27:46.940] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:27:47.666] Matières premières raffinées automatiquement.
+[2022/06/08 11:27:48.634] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:27:48.634] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:27:48.634] Vous avez reçu 800 Crédits.
+[2022/06/08 11:27:48.634] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:27:49.586] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:27:49.586] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:27:49.602] Vous avez reçu 800 Crédits.
+[2022/06/08 11:27:49.602] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:27:50.001] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:27:50.654] Matières premières raffinées automatiquement.
+[2022/06/08 11:27:51.636] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:27:52.644] Matières premières raffinées automatiquement.
+[2022/06/08 11:27:53.352] Hors de portée
+[2022/06/08 11:27:53.854] Le combat continue.
+[2022/06/08 11:27:57.336] Aptitude Singularité activée.
+[2022/06/08 11:28:07.610] Vous avez reçu 12.800 points d'expérience.
+[2022/06/08 11:28:07.610] Vous avez gagné 64 points d'honneur.
+[2022/06/08 11:28:07.626] Vous avez reçu 25.600 Crédits.
+[2022/06/08 11:28:07.626] Vous avez reçu 32 cristaux d'Uridium.
+[2022/06/08 11:28:07.626] L'aptitude Singularité n'est plus en action.
+[2022/06/08 11:28:08.413] Vous avez extrait des matières premières :
+320 Terbium
+320 Endurium
+4 Xenomit
+32 Duranium
+320 Prometium
+32 Prometid
+8 Promerium
+[2022/06/08 11:28:08.445] Hors de portée
+[2022/06/08 11:28:08.588] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:28:08.588] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:28:08.588] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:28:08.588] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:28:08.604] Matières premières raffinées automatiquement.
+[2022/06/08 11:28:08.939] Le combat continue.
+[2022/06/08 11:28:10.048] Hors de portée
+[2022/06/08 11:28:10.447] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:28:10.606] Matières premières raffinées automatiquement.
+[2022/06/08 11:28:11.149] Le combat continue.
+[2022/06/08 11:28:14.589] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:28:14.589] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:28:14.605] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:28:14.605] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:28:15.505] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:28:15.645] Matières premières raffinées automatiquement.
+[2022/06/08 11:28:30.587] Vous avez reçu 12.800 points d'expérience.
+[2022/06/08 11:28:30.587] Vous avez gagné 64 points d'honneur.
+[2022/06/08 11:28:30.587] Vous avez reçu 25.600 Crédits.
+[2022/06/08 11:28:30.587] Vous avez reçu 32 cristaux d'Uridium.
+[2022/06/08 11:28:32.002] Vous avez extrait des matières premières :
+320 Terbium
+320 Endurium
+4 Xenomit
+32 Duranium
+320 Prometium
+32 Prometid
+8 Promerium
+[2022/06/08 11:28:32.638] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:28:32.638] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:28:32.638] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:28:32.654] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:28:32.654] Matières premières raffinées automatiquement.
+[2022/06/08 11:28:33.053] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:28:33.224] Hors de portée
+[2022/06/08 11:28:33.320] Le combat continue.
+[2022/06/08 11:28:33.652] Matières premières raffinées automatiquement.
+[2022/06/08 11:28:34.606] Amélioration automatique du générateur de réacteurs par l'intermédiaire du CPU-booster de générateurs.
+[2022/06/08 11:28:37.588] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:28:37.588] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:28:37.604] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:28:37.604] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:28:43.143] Hors de portée
+[2022/06/08 11:28:43.585] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:28:43.585] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:28:43.654] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:28:43.654] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:28:43.744] Le combat continue.
+[2022/06/08 11:28:45.221] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:28:45.595] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:28:45.611] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:28:45.611] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:28:45.611] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:28:45.627] Matières premières raffinées automatiquement.
+[2022/06/08 11:28:46.599] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:28:46.599] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:28:46.599] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:28:46.599] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:28:47.460] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:28:47.613] Matières premières raffinées automatiquement.
+[2022/06/08 11:28:48.052] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:28:48.607] Matières premières raffinées automatiquement.
+[2022/06/08 11:28:48.860] Hors de portée
+[2022/06/08 11:28:50.157] Le combat continue.
+[2022/06/08 11:28:55.551] Hors de portée
+[2022/06/08 11:28:55.583] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:28:55.583] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:28:55.583] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:28:55.599] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:28:56.060] Le combat continue.
+[2022/06/08 11:28:57.578] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:28:57.594] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:28:57.594] Vous avez reçu 800 Crédits.
+[2022/06/08 11:28:57.594] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:28:58.619] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:28:58.905] Hors de portée
+[2022/06/08 11:28:59.097] Le combat continue.
+[2022/06/08 11:28:59.607] Matières premières raffinées automatiquement.
+[2022/06/08 11:29:19.586] Vous avez reçu 12.800 points d'expérience.
+[2022/06/08 11:29:19.602] Vous avez gagné 64 points d'honneur.
+[2022/06/08 11:29:19.602] Vous avez reçu 25.600 Crédits.
+[2022/06/08 11:29:19.602] Vous avez reçu 32 cristaux d'Uridium.
+[2022/06/08 11:29:20.585] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:29:20.585] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:29:20.585] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:29:20.628] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:29:21.028] Hors de portée
+[2022/06/08 11:29:21.453] Le combat continue.
+[2022/06/08 11:29:21.596] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:29:21.596] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:29:21.596] Vous avez reçu 800 Crédits.
+[2022/06/08 11:29:21.596] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:29:22.483] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:29:22.548] Hors de portée
+[2022/06/08 11:29:22.612] Matières premières raffinées automatiquement.
+[2022/06/08 11:29:22.740] Le combat continue.
+[2022/06/08 11:29:22.979] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:29:23.610] Matières premières raffinées automatiquement.
+[2022/06/08 11:29:23.849] Hors de portée
+[2022/06/08 11:29:23.865] Vous avez extrait des matières premières :
+320 Terbium
+320 Endurium
+4 Xenomit
+32 Duranium
+320 Prometium
+32 Prometid
+8 Promerium
+[2022/06/08 11:29:24.610] Matières premières raffinées automatiquement.
+[2022/06/08 11:29:24.642] Le combat continue.
+[2022/06/08 11:29:31.594] Vous avez reçu 6.400 points d'expérience.
+[2022/06/08 11:29:31.594] Vous avez gagné 32 points d'honneur.
+[2022/06/08 11:29:31.594] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:29:31.594] Vous avez reçu 16 cristaux d'Uridium.
+[2022/06/08 11:29:33.124] Vous avez extrait des matières premières :
+160 Terbium
+160 Endurium
+2 Xenomit
+8 Duranium
+160 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:29:33.606] Matières premières raffinées automatiquement.
+[2022/06/08 11:29:34.590] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:29:34.590] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:29:34.606] Vous avez reçu 800 Crédits.
+[2022/06/08 11:29:34.606] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:29:38.593] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:29:38.593] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:29:38.609] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:29:38.609] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:29:39.135] Hors de portée
+[2022/06/08 11:29:40.401] Le combat continue.
+[2022/06/08 11:29:40.433] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:29:40.605] Matières premières raffinées automatiquement.
+[2022/06/08 11:29:42.793] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:29:43.605] Matières premières raffinées automatiquement.
+[2022/06/08 11:29:47.468] Hors de portée
+[2022/06/08 11:29:47.580] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:29:47.580] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:29:47.596] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:29:47.596] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:29:47.866] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:29:48.090] Le combat continue.
+[2022/06/08 11:29:48.615] Matières premières raffinées automatiquement.
+[2022/06/08 11:29:49.589] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:29:49.589] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:29:49.589] Vous avez reçu 800 Crédits.
+[2022/06/08 11:29:49.589] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:29:50.449] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:29:50.593] Matières premières raffinées automatiquement.
+[2022/06/08 11:29:51.986] Hors de portée
+[2022/06/08 11:29:52.401] Le combat continue.
+[2022/06/08 11:29:58.895] Hors de portée
+[2022/06/08 11:29:59.211] Le combat continue.
+[2022/06/08 11:29:59.608] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:29:59.608] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:29:59.608] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:29:59.608] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:30:01.238] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:30:01.392] Hors de portée
+[2022/06/08 11:30:01.568] Le combat continue.
+[2022/06/08 11:30:01.599] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:30:01.599] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:30:01.599] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:30:01.599] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:30:01.615] Matières premières raffinées automatiquement.
+[2022/06/08 11:30:02.761] Hors de portée
+[2022/06/08 11:30:02.854] Le combat continue.
+[2022/06/08 11:30:09.685] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:30:09.685] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:30:09.685] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:30:09.685] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:30:11.277] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:30:11.751] Matières premières raffinées automatiquement.
+[2022/06/08 11:30:12.713] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:30:12.713] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:30:12.713] Vous avez reçu 800 Crédits.
+[2022/06/08 11:30:12.713] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:30:12.825] Hors de portée
+[2022/06/08 11:30:13.032] Le combat continue.
+[2022/06/08 11:30:13.847] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:30:13.942] Vous avez reçu Mucosum.
+[2022/06/08 11:30:14.611] Matières premières raffinées automatiquement.
+[2022/06/08 11:30:18.512] Hors de portée
+[2022/06/08 11:30:18.592] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:30:18.592] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:30:18.592] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:30:18.608] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:30:18.918] Le combat continue.
+[2022/06/08 11:30:21.500] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:30:21.580] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:30:21.596] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:30:21.596] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:30:21.596] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:30:21.612] Matières premières raffinées automatiquement.
+[2022/06/08 11:30:22.740] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:30:23.585] Matières premières raffinées automatiquement.
+[2022/06/08 11:30:23.601] Hors de portée
+[2022/06/08 11:30:24.022] Le combat continue.
+[2022/06/08 11:30:29.503] Hors de portée
+[2022/06/08 11:30:29.582] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:30:29.582] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:30:29.582] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:30:29.598] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:30:31.429] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:30:31.604] Matières premières raffinées automatiquement.
+[2022/06/08 11:30:32.099] Le combat continue.
+[2022/06/08 11:30:40.585] Vous avez reçu 6.400 points d'expérience.
+[2022/06/08 11:30:40.585] Vous avez gagné 32 points d'honneur.
+[2022/06/08 11:30:40.585] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:30:40.601] Vous avez reçu 16 cristaux d'Uridium.
+[2022/06/08 11:30:41.095] Vous avez extrait des matières premières :
+160 Terbium
+160 Endurium
+2 Xenomit
+8 Duranium
+160 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:30:41.590] Matières premières raffinées automatiquement.
+[2022/06/08 11:30:41.833] Hors de portée
+[2022/06/08 11:30:42.223] Le combat continue.
+[2022/06/08 11:30:47.581] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:30:47.597] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:30:47.597] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:30:47.597] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:30:48.397] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:30:48.588] Amélioration automatique des générateurs de boucliers par l'intermédiaire du CPU-booster de générateurs.
+[2022/06/08 11:30:48.604] Matières premières raffinées automatiquement.
+[2022/06/08 11:30:49.593] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:30:49.593] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:30:49.593] Vous avez reçu 800 Crédits.
+[2022/06/08 11:30:49.609] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:30:50.428] SKYLAB SENDER: Cargo Sent
+[2022/06/08 11:30:51.202] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:30:51.643] Matières premières raffinées automatiquement.
+[2022/06/08 11:30:53.250] Hors de portée
+[2022/06/08 11:30:53.648] Le combat continue.
+[2022/06/08 11:30:56.596] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:30:56.612] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:30:56.612] Vous avez reçu 800 Crédits.
+[2022/06/08 11:30:56.628] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:30:58.706] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:30:59.602] Matières premières raffinées automatiquement.
+[2022/06/08 11:31:04.436] Hors de portée
+[2022/06/08 11:31:04.943] Le combat continue.
+[2022/06/08 11:31:07.586] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:31:07.586] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:31:07.586] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:31:07.586] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:31:07.761] Hors de portée
+[2022/06/08 11:31:08.084] Le combat continue.
+[2022/06/08 11:31:08.339] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:31:08.606] Matières premières raffinées automatiquement.
+[2022/06/08 11:31:10.617] Vous avez reçu 10.000 munitions laser du type LCB-10.
+[2022/06/08 11:31:10.617] Achat automatique de munitions par le CPU-munitions
+[2022/06/08 11:31:11.758] Aptitude Singularité activée.
+[2022/06/08 11:31:22.583] Vous avez reçu 12.800 points d'expérience.
+[2022/06/08 11:31:22.583] Vous avez gagné 64 points d'honneur.
+[2022/06/08 11:31:22.583] Vous avez reçu 25.600 Crédits.
+[2022/06/08 11:31:22.599] Vous avez reçu 32 cristaux d'Uridium.
+[2022/06/08 11:31:22.599] L'aptitude Singularité n'est plus en action.
+[2022/06/08 11:31:22.822] Vous avez extrait des matières premières :
+320 Terbium
+320 Endurium
+4 Xenomit
+32 Duranium
+320 Prometium
+32 Prometid
+8 Promerium
+[2022/06/08 11:31:22.943] Vous avez reçu Scrap.
+[2022/06/08 11:31:23.589] Matières premières raffinées automatiquement.
+[2022/06/08 11:31:29.680] Hors de portée
+[2022/06/08 11:31:30.078] Le combat continue.
+[2022/06/08 11:31:31.578] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:31:31.578] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:31:31.594] Vous avez reçu 800 Crédits.
+[2022/06/08 11:31:31.594] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:31:32.500] Hors de portée
+[2022/06/08 11:31:34.138] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:31:34.598] Matières premières raffinées automatiquement.
+[2022/06/08 11:31:34.902] Le combat continue.
+[2022/06/08 11:31:37.581] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:31:37.581] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:31:37.581] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:31:37.597] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:31:39.219] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:31:39.614] Matières premières raffinées automatiquement.
+[2022/06/08 11:31:41.155] Hors de portée
+[2022/06/08 11:31:41.659] Le combat continue.
+[2022/06/08 11:31:44.593] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:31:44.593] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:31:44.593] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:31:44.609] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:31:45.900] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:31:46.595] Matières premières raffinées automatiquement.
+[2022/06/08 11:31:49.059] Hors de portée
+[2022/06/08 11:31:49.349] Le combat continue.
+[2022/06/08 11:31:50.588] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:31:50.588] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:31:50.619] Vous avez reçu 800 Crédits.
+[2022/06/08 11:31:50.619] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:31:50.915] Hors de portée
+[2022/06/08 11:31:51.123] Le combat continue.
+[2022/06/08 11:31:51.473] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:31:51.596] Matières premières raffinées automatiquement.
+[2022/06/08 11:31:55.589] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:31:55.589] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:31:55.605] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:31:55.605] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:31:57.166] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:31:57.598] Matières premières raffinées automatiquement.
+[2022/06/08 11:32:00.957] Hors de portée
+[2022/06/08 11:32:01.082] Le combat continue.
+[2022/06/08 11:32:01.592] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:32:01.592] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:32:01.592] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:32:01.592] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:32:02.022] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:32:02.581] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:32:02.581] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:32:02.597] Vous avez reçu 800 Crédits.
+[2022/06/08 11:32:02.597] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:32:02.620] Matières premières raffinées automatiquement.
+[2022/06/08 11:32:03.606] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:32:03.606] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:32:03.606] Vous avez reçu 800 Crédits.
+[2022/06/08 11:32:03.606] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:32:04.137] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:32:04.605] Matières premières raffinées automatiquement.
+[2022/06/08 11:32:05.419] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:32:05.594] Matières premières raffinées automatiquement.
+[2022/06/08 11:32:10.083] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:32:10.608] Matières premières raffinées automatiquement.
+[2022/06/08 11:32:11.585] Hors de portée
+[2022/06/08 11:32:11.981] Le combat continue.
+[2022/06/08 11:32:18.595] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:32:18.595] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:32:18.595] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:32:18.595] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:32:19.790] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:32:19.902] Hors de portée
+[2022/06/08 11:32:20.205] Le combat continue.
+[2022/06/08 11:32:20.635] Matières premières raffinées automatiquement.
+[2022/06/08 11:32:27.591] Vous avez reçu 6.400 points d'expérience.
+[2022/06/08 11:32:27.591] Vous avez gagné 32 points d'honneur.
+[2022/06/08 11:32:27.591] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:32:27.591] Vous avez reçu 16 cristaux d'Uridium.
+[2022/06/08 11:32:29.587] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:32:29.587] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:32:29.587] Vous avez reçu 800 Crédits.
+[2022/06/08 11:32:29.587] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:32:31.213] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:32:31.612] Matières premières raffinées automatiquement.
+[2022/06/08 11:32:32.315] Vous avez extrait des matières premières :
+160 Terbium
+160 Endurium
+2 Xenomit
+8 Duranium
+160 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:32:32.602] Matières premières raffinées automatiquement.
+[2022/06/08 11:32:34.176] Hors de portée
+[2022/06/08 11:32:34.574] Le combat continue.
+[2022/06/08 11:32:38.878] Hors de portée
+[2022/06/08 11:32:39.171] Le combat continue.
+[2022/06/08 11:32:39.586] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:32:39.586] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:32:39.586] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:32:39.586] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:32:41.137] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:32:41.274] Hors de portée
+[2022/06/08 11:32:41.609] Matières premières raffinées automatiquement.
+[2022/06/08 11:32:41.976] Le combat continue.
+[2022/06/08 11:32:46.593] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:32:46.593] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:32:46.593] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:32:46.593] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:32:47.593] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:32:47.593] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:32:47.593] Vous avez reçu 800 Crédits.
+[2022/06/08 11:32:47.593] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:32:47.593] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:32:48.605] Matières premières raffinées automatiquement.
+[2022/06/08 11:32:48.735] Hors de portée
+[2022/06/08 11:32:49.772] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:32:50.608] Matières premières raffinées automatiquement.
+[2022/06/08 11:32:51.443] Le combat continue.
+[2022/06/08 11:32:52.618] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:32:52.634] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:32:52.634] Vous avez reçu 800 Crédits.
+[2022/06/08 11:32:52.634] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:32:53.601] Hors de portée
+[2022/06/08 11:32:54.000] Le combat continue.
+[2022/06/08 11:32:57.582] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:32:57.582] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:32:57.582] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:32:57.582] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:32:59.329] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:32:59.600] Matières premières raffinées automatiquement.
+[2022/06/08 11:33:00.850] Hors de portée
+[2022/06/08 11:33:01.346] Le combat continue.
+[2022/06/08 11:33:07.991] Hors de portée
+[2022/06/08 11:33:08.599] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:33:08.599] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:33:08.599] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:33:08.599] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:33:08.694] Le combat continue.
+[2022/06/08 11:33:09.794] Hors de portée
+[2022/06/08 11:33:10.737] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:33:11.595] Matières premières raffinées automatiquement.
+[2022/06/08 11:33:11.937] Le combat continue.
+[2022/06/08 11:33:16.584] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:33:16.584] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:33:16.584] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:33:16.584] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:33:17.316] Hors de portée
+[2022/06/08 11:33:19.254] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:33:19.601] Matières premières raffinées automatiquement.
+[2022/06/08 11:33:20.110] Le combat continue.
+[2022/06/08 11:33:21.585] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:33:21.585] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:33:21.585] Vous avez reçu 800 Crédits.
+[2022/06/08 11:33:21.601] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:33:24.608] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:33:25.597] Matières premières raffinées automatiquement.
+[2022/06/08 11:33:28.349] Hors de portée
+[2022/06/08 11:33:28.749] Le combat continue.
+[2022/06/08 11:33:30.625] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:33:30.625] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:33:30.625] Vous avez reçu 800 Crédits.
+[2022/06/08 11:33:30.625] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:33:32.346] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:33:32.597] Matières premières raffinées automatiquement.
+[2022/06/08 11:33:34.873] Hors de portée
+[2022/06/08 11:33:34.981] Le combat continue.
+[2022/06/08 11:33:37.580] Vous avez encore un message non lu dans votre boîte de réception !
+[2022/06/08 11:33:40.589] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:33:40.589] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:33:40.605] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:33:40.605] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:33:41.813] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:33:42.617] Matières premières raffinées automatiquement.
+[2022/06/08 11:33:42.760] Hors de portée
+[2022/06/08 11:33:43.203] Le combat continue.
+[2022/06/08 11:33:44.631] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:33:44.631] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:33:44.631] Vous avez reçu 800 Crédits.
+[2022/06/08 11:33:44.631] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:33:47.219] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:33:47.593] Matières premières raffinées automatiquement.
+[2022/06/08 11:33:50.585] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:33:50.601] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:33:50.601] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:33:50.601] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:33:50.697] Hors de portée
+[2022/06/08 11:33:50.792] Le combat continue.
+[2022/06/08 11:33:51.995] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:33:52.585] Matières premières raffinées automatiquement.
+[2022/06/08 11:33:53.577] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:33:53.592] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:33:53.592] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:33:53.592] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:33:53.723] Hors de portée
+[2022/06/08 11:33:54.029] Le combat continue.
+[2022/06/08 11:33:56.636] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:33:57.597] Matières premières raffinées automatiquement.
+[2022/06/08 11:33:58.280] Hors de portée
+[2022/06/08 11:33:58.464] Le combat continue.
+[2022/06/08 11:33:58.592] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:33:58.592] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:33:58.592] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:33:58.592] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:34:00.250] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:34:00.585] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:34:00.585] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:34:00.585] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:34:00.585] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:34:00.601] Matières premières raffinées automatiquement.
+[2022/06/08 11:34:03.445] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:34:03.605] Matières premières raffinées automatiquement.
+[2022/06/08 11:34:15.903] Hors de portée
+[2022/06/08 11:34:16.399] Le combat continue.
+[2022/06/08 11:34:17.590] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:34:17.590] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:34:17.590] Vous avez reçu 800 Crédits.
+[2022/06/08 11:34:17.590] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:34:20.365] Hors de portée
+[2022/06/08 11:34:20.668] Le combat continue.
+[2022/06/08 11:34:23.444] Hors de portée
+[2022/06/08 11:34:23.582] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:34:23.582] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:34:23.582] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:34:23.582] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:34:23.741] Le combat continue.
+[2022/06/08 11:34:25.433] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:34:25.592] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:34:25.592] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:34:25.592] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:34:25.592] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:34:25.608] Matières premières raffinées automatiquement.
+[2022/06/08 11:34:29.092] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:34:29.594] Matières premières raffinées automatiquement.
+[2022/06/08 11:34:59.660] Hors de portée
+[2022/06/08 11:34:59.867] Le combat continue.
+[2022/06/08 11:35:02.569] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:35:02.585] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:35:02.585] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:35:02.585] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:35:03.880] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:35:04.604] Matières premières raffinées automatiquement.
+[2022/06/08 11:35:14.911] Hors de portée
+[2022/06/08 11:35:15.203] Le combat continue.
+[2022/06/08 11:35:17.913] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:35:18.519] Hors de portée
+[2022/06/08 11:35:18.598] Matières premières raffinées automatiquement.
+[2022/06/08 11:35:19.287] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:35:19.591] Matières premières raffinées automatiquement.
+[2022/06/08 11:35:20.323] Vous avez extrait des matières premières :
+320 Terbium
+320 Endurium
+4 Xenomit
+32 Duranium
+320 Prometium
+32 Prometid
+8 Promerium
+[2022/06/08 11:35:20.603] Matières premières raffinées automatiquement.
+[2022/06/08 11:35:22.069] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:35:22.592] Matières premières raffinées automatiquement.
+[2022/06/08 11:35:23.541] Le combat continue.
+[2022/06/08 11:35:25.569] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:35:25.585] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:35:25.585] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:35:25.585] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:35:29.704] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:35:30.595] Matières premières raffinées automatiquement.
+[2022/06/08 11:35:31.536] Vous avez extrait des matières premières :
+160 Terbium
+160 Endurium
+2 Xenomit
+8 Duranium
+160 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:35:31.599] Matières premières raffinées automatiquement.
+[2022/06/08 11:35:36.285] Hors de portée
+[2022/06/08 11:35:36.712] Le combat continue.
+[2022/06/08 11:35:42.603] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:35:42.603] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:35:42.603] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:35:42.619] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:35:42.762] Hors de portée
+[2022/06/08 11:35:44.268] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:35:44.607] Matières premières raffinées automatiquement.
+[2022/06/08 11:35:45.982] Vous avez extrait des matières premières :
+320 Terbium
+320 Endurium
+4 Xenomit
+32 Duranium
+320 Prometium
+32 Prometid
+8 Promerium
+[2022/06/08 11:35:46.590] Matières premières raffinées automatiquement.
+[2022/06/08 11:35:47.533] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:35:47.597] Matières premières raffinées automatiquement.
+[2022/06/08 11:35:48.075] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:35:48.605] Matières premières raffinées automatiquement.
+[2022/06/08 11:35:49.163] Le combat continue.
+[2022/06/08 11:35:53.583] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:35:53.599] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:35:53.599] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:35:53.599] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:35:59.624] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:35:59.624] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:35:59.624] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:35:59.624] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:35:59.688] Hors de portée
+[2022/06/08 11:36:00.333] Le combat continue.
+[2022/06/08 11:36:00.508] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:36:00.655] Matières premières raffinées automatiquement.
+[2022/06/08 11:36:02.628] Vous avez reçu 1.600 points d'expérience.
+[2022/06/08 11:36:02.628] Vous avez gagné 8 points d'honneur.
+[2022/06/08 11:36:02.628] Vous avez reçu 1.600 Crédits.
+[2022/06/08 11:36:02.628] Vous avez reçu 4 cristaux d'Uridium.
+[2022/06/08 11:36:04.573] Vous avez reçu 800 points d'expérience.
+[2022/06/08 11:36:04.589] Vous avez gagné 4 points d'honneur.
+[2022/06/08 11:36:04.589] Vous avez reçu 800 Crédits.
+[2022/06/08 11:36:04.589] Vous avez reçu 2 cristaux d'Uridium.
+[2022/06/08 11:36:06.225] Vous avez extrait des matières premières :
+20 Terbium
+20 Endurium
+20 Prometium
+[2022/06/08 11:36:06.458] Hors de portée
+[2022/06/08 11:36:06.601] Matières premières raffinées automatiquement.
+[2022/06/08 11:36:06.753] Le combat continue.
+[2022/06/08 11:36:12.573] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:36:12.589] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:36:12.589] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:36:12.589] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:36:16.001] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:36:16.598] Matières premières raffinées automatiquement.
+[2022/06/08 11:36:16.906] Hors de portée
+[2022/06/08 11:36:17.416] Le combat continue.
+[2022/06/08 11:36:22.584] Vous avez reçu 3.200 points d'expérience.
+[2022/06/08 11:36:22.584] Vous avez gagné 16 points d'honneur.
+[2022/06/08 11:36:22.584] Vous avez reçu 6.400 Crédits.
+[2022/06/08 11:36:22.584] Vous avez reçu 8 cristaux d'Uridium.
+[2022/06/08 11:36:26.038] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:36:26.597] Matières premières raffinées automatiquement.
+[2022/06/08 11:36:27.393] Hors de portée
+[2022/06/08 11:36:27.903] Le combat continue.
+[2022/06/08 11:36:32.208] Hors de portée
+[2022/06/08 11:36:32.431] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:36:32.601] Matières premières raffinées automatiquement.
+[2022/06/08 11:36:33.464] Vous avez extrait des matières premières :
+40 Terbium
+40 Endurium
+2 Duranium
+40 Prometium
+2 Prometid
+[2022/06/08 11:36:33.631] Matières premières raffinées automatiquement.
+[2022/06/08 11:36:34.205] Le combat continue.
+[2022/06/08 11:36:39.762] Vous avez extrait des matières premières :
+80 Terbium
+80 Endurium
+8 Duranium
+80 Prometium
+8 Prometid
+1 Promerium
+[2022/06/08 11:36:40.602] Matières premières raffinées automatiquement.
+[2022/06/08 11:36:48.567] Vous avez reçu 12.800 points d'expérience.
+[2022/06/08 11:36:48.583] Vous avez gagné 64 points d'honneur.
+[2022/06/08 11:36:48.583] Vous avez reçu 25.600 Crédits.
+[2022/06/08 11:36:48.583] Vous avez reçu 32 cristaux d'Uridium.
+[2022/06/08 11:37:08.007] Exit confirmation button pressed, exiting

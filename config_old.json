@@ -1,0 +1,4939 @@
+{
+  "AVOIDED": {
+    "91": {
+      "resolution": 30,
+      "data": "//////////////////////////////////8D/v8BAPh/AAD+DwAA/AEAAD8AAMAHAAAAAAAAAAAAAAAAAAAAAABwAAAAPwAAwB8AAPwfAID/DwD4/wcA/v8B/////////////////////////////w8\u003d"
+    }
+  },
+  "PREFERRED": {
+    "91": {
+      "resolution": 30,
+      "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4AAAAHgAAgAcAAOABAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u003d"
+    }
+  },
+  "SAFETY": {
+    "-1": [],
+    "17": [],
+    "306": [],
+    "19": [],
+    "20": [],
+    "91": [],
+    "29": [],
+    "3": [],
+    "1": [],
+    "92": [],
+    "93": [],
+    "4": []
+  },
+  "PLAYER_INFOS": {},
+  "PLAYER_TAGS": [],
+  "UNRESOLVED": [],
+  "CUSTOM_CONFIGS": {
+    "eu.darkbot.popcorn.def.SampleModule": {
+      "BOOLEAN_VALUE": true,
+      "INTEGER_LIMIT": 1,
+      "PERCENTAGE_VALUE": 0.5,
+      "MOVE_SHIP": false
+    },
+    "eu.darkbot.popcorn.def.AntiPush": {
+      "DRAWFIRE_PAUSE_TIME": -1,
+      "MAX_DEATHS": 4,
+      "DEATH_PAUSE_TIME": 24
+    },
+    "eu.darkbot.popcorn.def.UserAgentUpdater": {
+      "USER_AGENT": "BigpointClient/1.6.7",
+      "NEXT_UPDATE": 1654698948147
+    },
+    "com.deeme.modules.PaladiumModule": {
+      "goPortalChange": true,
+      "sellOnDie": true,
+      "collectHangar": -1,
+      "sellHangar": -1,
+      "aditionalWaitingTime": 5
+    },
+    "com.deeme.modules.SentinelModule": {
+      "MASTER_ID": 0,
+      "followGroupLeader": true,
+      "ignoreSecurity": false,
+      "rangeToLider": 300,
+      "collectorActive": false,
+      "copyMasterFormation": false,
+      "useBestFormation": true,
+      "autoAttack": {
+        "helpAttackNPCs": true,
+        "helpAttackEnemyPlayers": true,
+        "helpAttackPlayers": true,
+        "autoAttackEnemies": false,
+        "rangeForEnemies": 100,
+        "defendFromNPCs": false
+      },
+      "autoCloak": {
+        "autoCloakShip": false,
+        "secondsOfWaiting": 10
+      }
+    },
+    "com.deeme.modules.PVPModule": {
+      "move": true,
+      "changeConfig": true,
+      "useRunConfig": true,
+      "useBestRocket": true,
+      "useBestFormation": true,
+      "rangeForEnemies": 100,
+      "useRSB": false,
+      "SAB": {
+        "ENABLED": false,
+        "KEY": "2",
+        "PERCENT": 0.8,
+        "NPC_AMOUNT": 12000
+      },
+      "ability": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "ISH": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "SMB": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "PEM": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "otherKey": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      }
+    },
+    "com.deeme.tasks.Discord": {
+      "intervalMessage": 10,
+      "discordName": "Stats",
+      "sendSidLink": false,
+      "sendSessionStats": false
+    },
+    "com.deeme.tasks.Ifttt": {
+      "intervalMessage": 10,
+      "iftttTriggerName": "",
+      "iftttApiKey": "",
+      "value1": "totalUridium",
+      "value2": "totalCredits",
+      "value3": "runningTime"
+    },
+    "com.deeme.tasks.Skylab": {
+      "sepromToSend": 0,
+      "promeriumToSend": 0,
+      "premium": false,
+      "forceCheck": false
+    },
+    "com.deeme.tasks.WeeklySchedule": {
+      "activate": false,
+      "Hours_Changes": {},
+      "updateHangarList": true,
+      "changeHangar": false,
+      "profile1": {
+        "BOT_PROFILE": "config"
+      },
+      "profile2": {
+        "BOT_PROFILE": "config"
+      },
+      "profile3": {
+        "BOT_PROFILE": "config"
+      },
+      "profile4": {
+        "BOT_PROFILE": "config"
+      }
+    },
+    "com.deeme.tasks.AutoChangeMap": {
+      "Maps_Changes": {}
+    },
+    "com.deeme.behaviours.Others": {
+      "maxDeathsKO": 0,
+      "reloadIfCrash": false
+    },
+    "com.deeme.behaviours.DefenseMode": {
+      "respondAttacks": true,
+      "helpAllies": true,
+      "helpGroup": true,
+      "goToGroup": false,
+      "helpEveryone": true,
+      "helpAttack": false,
+      "movementMode": 0,
+      "useBestRocket": false,
+      "useBestFormation": false,
+      "useRSB": false,
+      "SAB": {
+        "ENABLED": false,
+        "KEY": "2",
+        "PERCENT": 0.8,
+        "NPC_AMOUNT": 12000
+      },
+      "ability": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "ISH": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "SMB": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "PEM": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "otherKey": {
+        "enable": false,
+        "HEALTH_RANGE": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "HEALTH_ENEMY_RANGE": {
+          "min": 0.2,
+          "max": 0.4
+        }
+      },
+      "useSecondConfig": true,
+      "healthToChange": 0.2,
+      "secondConfig": {
+        "CONFIG": 1
+      }
+    },
+    "com.punikekk.modules.GalaxyModule": {
+      "MIN_LIVES": 0,
+      "GALAXY_INFO": {
+        "Gamma": {
+          "jumpIn": false,
+          "priority": 0
+        },
+        "Zeta": {
+          "jumpIn": false,
+          "priority": 0
+        },
+        "Kuiper": {
+          "jumpIn": false,
+          "priority": 0
+        },
+        "Kappa": {
+          "jumpIn": false,
+          "priority": 0
+        },
+        "Delta": {
+          "jumpIn": false,
+          "priority": 0
+        },
+        "Epsilon": {
+          "jumpIn": false,
+          "priority": 0
+        },
+        "Alpha": {
+          "jumpIn": false,
+          "priority": 0
+        },
+        "Kronos": {
+          "jumpIn": false,
+          "priority": 0
+        },
+        "Lambda": {
+          "jumpIn": false,
+          "priority": 0
+        },
+        "Beta": {
+          "jumpIn": false,
+          "priority": 0
+        }
+      },
+      "GENERAL": {
+        "ATTACK_CONFIG": {
+          "CONFIG": 1
+        },
+        "REPAIR_CONFIG": {
+          "CONFIG": 1
+        },
+        "ROAM_CONFIG": {
+          "CONFIG": 1
+        },
+        "END_GATE_CONFIG": {
+          "CONFIG": 1
+        },
+        "REPAIR": {
+          "min": 0.6,
+          "max": 0.9
+        },
+        "COLLECTING_RADIUS": 150,
+        "SAFE_RADIUS": 750,
+        "DONT_LET_FLY_CORNER": false,
+        "ESCAPING_RADIUS_MODIFIER": 0.9,
+        "SAFETY_ATTACK_KEY": "\u0011",
+        "REFRESH_AFTER": 5,
+        "REFRESH_NPC_BUG": 0,
+        "IGNORE_NPC_FOR": 60
+      },
+      "PET": {
+        "MODE": 0,
+        "PET_BOX_COLLECTING_ONLY": true
+      },
+      "KAMIKAZE": {
+        "ENABLED": false,
+        "CONFIG": {
+          "CONFIG": 1
+        },
+        "REPAIR_HP": {
+          "min": 0.65,
+          "max": 0.9
+        },
+        "REPAIR_SHIELD": {
+          "min": 0.5,
+          "max": 0.95
+        },
+        "WAIT": 30,
+        "MIN_AMOUNT": 5
+      }
+    },
+    "com.punikekk.modules.GoPModule": {
+      "EASY": false,
+      "BEACON_CONFIG": {
+        "CONFIG": 1
+      },
+      "ATTACK_CONFIG": {
+        "CONFIG": 1
+      },
+      "USE_SMART_FORMATION": false,
+      "COLLECTING_RADIUS": 150,
+      "COLLECT_RADIUS_AFTER": 1500,
+      "REPAIR": {
+        "min": 0.4,
+        "max": 0.9
+      }
+    },
+    "com.punikekk.modules.LoWModule": {
+      "REPAIR": {
+        "min": 0.5,
+        "max": 0.9
+      },
+      "ATTACK_CONFIG": {
+        "CONFIG": 1
+      },
+      "REPAIR_CONFIG": {
+        "CONFIG": 1
+      },
+      "ROAM_CONFIG": {
+        "CONFIG": 1
+      },
+      "WAIT_FOR_ALL_MEMBERS": true,
+      "FALCON_LIFE_SAVER": {
+        "USE_EMP_AT": 0.0,
+        "USE_ISH_AT": 0.0,
+        "USE_ORCUS_ABILITY_AT": 0.0
+      }
+    },
+    "com.punikekk.modules.eternal.EternalGate": {
+      "ATTACK_KEY": "\u0011",
+      "REPAIR": {
+        "min": 0.6,
+        "max": 0.9
+      },
+      "SHIELD": 0.4,
+      "SUICIDE_AT_WAVE": 0,
+      "FARM_KEYS_TO": 5,
+      "NPC_LOCK_DIFF": 100,
+      "REJUMP_AFTER_MINES_WAVE": false,
+      "COLLECT_AFTER_WAVE": false,
+      "COLLECT_RADIUS": 150,
+      "ISH": {
+        "NPC_TYPE_TRIGGER": [],
+        "HEALTH_BELOW": 0.5,
+        "TURBO_MINE_CPU": false
+      },
+      "EMP": {
+        "NPC_TYPE_TRIGGER": [],
+        "HEALTH_BELOW": 0.5
+      },
+      "PET": {
+        "NPC": false,
+        "STROKELIGHT": false,
+        "REPAIR": false
+      },
+      "BOSS": {
+        "BOSS_CONFIG": "DISABLED",
+        "VETERAN_CONFIG_TYPE": "DISABLED",
+        "USE_VETERAN_HP": 200000
+      },
+      "LEECH": {
+        "START_USING_AT_WAVE": 98,
+        "EVERY_CYCLE": true
+      },
+      "SOLACE": {},
+      "ORCUS": {
+        "NPC_TYPE_TRIGGER": [
+          "UBER_PROTEGIT",
+          "STROKELIGHT"
+        ]
+      },
+      "MISCELLANEOUS": {
+        "JUMP_AND_PAUSE": "",
+        "TRY_TO_SPLIT_UK": true
+      },
+      "ETERNAL_INFO": {}
+    },
+    "com.punikekk.modules.hades.HadesModule": {
+      "REPAIR": {
+        "min": 0.5,
+        "max": 0.9
+      },
+      "ENG_GATE_CONFIG": {
+        "CONFIG": 1
+      },
+      "SWITCH_END_CONFIG": 10.0,
+      "COLLECT_RADIUS": 100,
+      "WAIT_PLAYERS": false,
+      "KAMIKAZE": {
+        "ENABLED": false,
+        "CONFIG": {
+          "CONFIG": 1
+        },
+        "WAIT": 30,
+        "MIN_AMOUNT": 5
+      }
+    },
+    "com.punikekk.modules.follow.FollowModule": {
+      "REPAIR": {
+        "min": 0.15,
+        "max": 0.8
+      },
+      "REPAIR_SHIELD": 0.0,
+      "KEEP_ATTACK_CONFIG_FOR": 3,
+      "FOLLOW_ID": 0,
+      "ATTACK_FLAGS": [
+        "ATTACK_PLAYER",
+        "ATTACK_NPC",
+        "DEFEND_MASTER",
+        "PRIORITIZE_DEFEND_MASTER",
+        "DEFEND_YOURSELF"
+      ],
+      "FOLLOW_FLAGS": [
+        "PLAYER_TAG_ENABLED",
+        "GROUP_MASTER_ENABLED",
+        "ID_MASTER_ENABLED",
+        "STRICT_MODE_DESTINATION"
+      ],
+      "MAP": {
+        "REMOVE_BASE_AVOIDANCE": false,
+        "SHOULD_WAIT": true,
+        "ENABLED": false,
+        "REMEMBER_MAP": true,
+        "WAIT_MAP": 26
+      },
+      "PET": {
+        "USE_COMBO_REPAIR": true,
+        "MIN_HP_TO_USE_COMBO": 150000,
+        "DEFAULT_MODULE": 2
+      },
+      "LIFE_SAVER": {
+        "USE_ON_ALIENS": false,
+        "RESPECT_EXTRA_FLAGS": false,
+        "USE_EMP_AT": 0.0,
+        "USE_ISH_AT": 0.0,
+        "USE_RUN_AT": 0.0,
+        "USE_ORCUS_ABILITY_AT": 0.0
+      },
+      "COLLECTOR": {
+        "ENABLED": false,
+        "COLLECT_ON_ATTACKING": false,
+        "BEHEMOTH_BOX_CONFIG": {
+          "CONFIG": 1
+        },
+        "COLLECT_RADIUS": 200
+      },
+      "MISCELLANEOUS": {
+        "COPY_MASTER_FORMATIONS": false,
+        "USE_RSB_ON_PLAYERS": false,
+        "USE_PIB_ON_PLAYERS": false,
+        "KEEP_AT_MASTER_DEAD_LOC": false,
+        "FOLLOW_MASTER_MAP": false,
+        "KEEP_ATTACK_IN_PREFERRED": false,
+        "USE_ANTI_Z1": false,
+        "CLOAK_DIFF_LAST_ATTACK": 0,
+        "RADIUS_AUTO_ATTACK": 1500
+      }
+    },
+    "com.punikekk.modules.spawner.ChaosSpawner": {
+      "FROM_OTHERS_DISTANCE": 800,
+      "WAIT_AT_PORTAL": true,
+      "ATTACK_AGGRESSIVE_NPC": true
+    },
+    "com.punikekk.tasks.helper.GalaxyHelper": {
+      "UPDATE_EVERY": 30
+    },
+    "com.punikekk.tasks.skylab.SkylabBuilder": {
+      "SKYLAB_INFO": {},
+      "UPDATE_DELAY": 5,
+      "RESET_ON_RESTART": false,
+      "BUY_ROBOTS": false,
+      "BUY_URI_ROBOTS": false,
+      "DISABLE_SEPROM_REFINERY": false,
+      "DISABLE_TASK_ON_FULL": false
+    },
+    "com.hii666.modules.traveller.Map42Traveller": {
+      "TRAVEL": {
+        "CONFIG": 1,
+        "FORMATION": "7"
+      },
+      "REPAIR_RUN": {
+        "CONFIG": 1,
+        "FORMATION": "6"
+      },
+      "JUMP_KEY": "0",
+      "KEEP_TRAVELLING": true,
+      "SURVIVE": true,
+      "PLAY": true
+    },
+    "com.hii666.tasks.autobuy.AutoBuy": {
+      "LCB": {
+        "BUY_X1": false,
+        "AMOUNT_X1": 100000,
+        "MIN_X1": 100000
+      },
+      "PLT": {
+        "BUY_PLT": false,
+        "AMOUNT_PLT": 100000,
+        "MIN_PLT": 50000
+      },
+      "ECO": {
+        "BUY_ECO": false,
+        "AMOUNT_ECO": 20000,
+        "MIN_ECO": 5000
+      },
+      "FUEL": {
+        "BUY_FUEL": false,
+        "AMOUNT_FUEL": 20000,
+        "MIN_FUEL": 10000
+      },
+      "BOOSTER": {
+        "BOOSTER_INFO": {
+          "EP-B01": {
+            "autoBuy": false
+          },
+          "EP-B02": {
+            "autoBuy": false
+          },
+          "HON-B01": {
+            "autoBuy": false
+          },
+          "HON-B02": {
+            "autoBuy": false
+          },
+          "DMG-B01": {
+            "autoBuy": false
+          },
+          "DMG-B02": {
+            "autoBuy": false
+          },
+          "SHD-B01": {
+            "autoBuy": false
+          },
+          "SHD-B02": {
+            "autoBuy": false
+          },
+          "HP-B01": {
+            "autoBuy": false
+          },
+          "HP-B02": {
+            "autoBuy": false
+          },
+          "REP-B01": {
+            "autoBuy": false
+          },
+          "REP-B02": {
+            "autoBuy": false
+          },
+          "SREG-B01": {
+            "autoBuy": false
+          },
+          "SREG-B02": {
+            "autoBuy": false
+          },
+          "RES-B01": {
+            "autoBuy": false
+          },
+          "RES-B02": {
+            "autoBuy": false
+          },
+          "CD-B01": {
+            "autoBuy": false
+          },
+          "CD-B02": {
+            "autoBuy": false
+          },
+          "PRC-B00": {
+            "autoBuy": false
+          }
+        }
+      }
+    },
+    "com.hii666.behaviours.customEvent.CustomEvent": {
+      "CUSTOM_ACTIONS": {}
+    },
+    "com.hii666.behaviours.formationChanger.FormationChanger": {
+      "CHANGE": false,
+      "OFFENSIVE_FORMATION": "8",
+      "LOW_HP_FORMATION": "9",
+      "LOW_HP": 0.25,
+      "MIN_SHD": 0.7,
+      "USING_SAB": true
+    },
+    "com.hii666.behaviours.petRepair.PetRepair": {
+      "REPAIR_PET": false,
+      "DEFAULT_MODULE": 1,
+      "HP_LINK": false,
+      "LOW_HP": 25,
+      "START_SEC": 20
+    },
+    "com.hii666.behaviours.petMaxDeaths.PetMaxDeath": {
+      "LIMIT_DEATHS": false,
+      "MAX_DEATHS": 666
+    },
+    "com.hii666.tasks.stats.Stats": {
+      "settings": {
+        "UPDATE_STATS": 3,
+        "STATS": true,
+        "EQUIPMENT": true,
+        "NPC": true,
+        "DRONES": true,
+        "SEARCH_BAR_SETTINGS": {
+          "STATS_BAR": true,
+          "NPC_BAR": true
+        },
+        "CHARTS_SETTINGS": {
+          "DRAW_CHARTS": true,
+          "CHARTS_TO_DRAW": {
+            "URI": true,
+            "URI_H": true,
+            "CR": true,
+            "CR_H": true,
+            "DEATHS": true,
+            "EXP": true,
+            "EXP_H": true,
+            "HON": true,
+            "HON_H": true,
+            "CARGO": true
+          },
+          "EXPERT_SETTINGS": {
+            "SHOW_MARKERS": false,
+            "VALUES_TO_KEEP": 1000,
+            "UPDATE_TIME": 1500,
+            "PROCESSING": true,
+            "TOLERANCE": 0.4,
+            "SEC_TOLERANCE": 0.3,
+            "MEAN_CONSIDER": 3,
+            "MEAN_TOLERANCE": 0.06,
+            "INCREASE_TOLERANCE": true
+          }
+        }
+      }
+    },
+    "com.hii666.behaviours.PBC.PBCollector": {
+      "COLLECT": false,
+      "MIN_URI": 0
+    },
+    "eu.darkbot.fabio.modules.BotUpdater": {
+      "useFileProperties": false,
+      "autoHideApi": false
+    },
+    "eu.darkbot.fabio.modules.AutoRestart": {
+      "Time": "05:35:00",
+      "configs": "config",
+      "disableInRestart": false,
+      "autoHideApi": false
+    },
+    "eu.darkbot.fabio.modules.BattlerayFarmer": {
+      "killAlienWhenFly": true,
+      "pickPalladium": false,
+      "killSaboteur": false
+    },
+    "eu.darkbot.teyrox.CubiModule": {
+      "KRISTALLINS": true
+    },
+    "eu.darkbot.teyrox.NPCRadiusList": {},
+    "eu.darkbot.teyrox.BOXList": {},
+    "eu.darkbot.popcorn.don.PlutusExperimentModule": {
+      "PROGRESS": true,
+      "MAP_SWITCHING": true
+    },
+    "eu.darkbot.popcorn.don.QuarantineModule": {
+      "MOVE_AFTER_START": true,
+      "PLAY_SAFE": true,
+      "BOSS_SAFETY_DIFF": 0.05
+    },
+    "eu.darkbot.popcorn.don.MimesisGateModule": {
+      "START_TRAVEL": 30,
+      "PAUSE_AND_WAIT": true,
+      "AFTER": {
+        "STAY_INSIDE": 0.8,
+        "IGNORE_NPC": false,
+        "IGNORE_BOXES": false
+      }
+    },
+    "eu.darkbot.popcorn.don.LabyrinthModule": {
+      "CHASE_SYNK": false,
+      "CHASE_SKOLL": false,
+      "KEEP_SKOLL": true,
+      "MAPS": [
+        "Atlas_A",
+        "Atlas_B",
+        "Atlas_C",
+        "Cygni",
+        "Helvetios",
+        "Eridani",
+        "Sirius",
+        "Sadatoni",
+        "Persei",
+        "Volantis",
+        "Alcyone",
+        "Auriga",
+        "Bootes",
+        "Aquila",
+        "Orion",
+        "Maia"
+      ],
+      "ZONES": [
+        "TOP_LEFT",
+        "TOP_RIGHT",
+        "BOTTOM_LEFT",
+        "BOTTOM_RIGHT"
+      ]
+    },
+    "eu.darkbot.popcorn.don.PlayerTagger": {
+      "TAG1": {
+        "FILTER_MAPS": [],
+        "FILTER_NPCS": [],
+        "EXPIRE_AFTER": 0,
+        "AUTO_REMOVE": false
+      },
+      "TAG2": {
+        "FILTER_MAPS": [],
+        "FILTER_NPCS": [],
+        "EXPIRE_AFTER": 0,
+        "AUTO_REMOVE": false
+      },
+      "TAG3": {
+        "FILTER_MAPS": [],
+        "FILTER_NPCS": [],
+        "EXPIRE_AFTER": 0,
+        "AUTO_REMOVE": false
+      }
+    },
+    "eu.darkbot.popcorn.don.SimpleKeys": {
+      "KEY1": {
+        "ENABLED": false,
+        "COOLDOWN": 5,
+        "CHECK_EVERY": 500
+      },
+      "KEY2": {
+        "ENABLED": false,
+        "COOLDOWN": 5,
+        "CHECK_EVERY": 500
+      },
+      "KEY3": {
+        "ENABLED": false,
+        "COOLDOWN": 5,
+        "CHECK_EVERY": 500
+      },
+      "KEY4": {
+        "ENABLED": false,
+        "COOLDOWN": 5,
+        "CHECK_EVERY": 500
+      },
+      "KEY5": {
+        "ENABLED": false,
+        "COOLDOWN": 5,
+        "CHECK_EVERY": 500
+      },
+      "KEY6": {
+        "ENABLED": false,
+        "COOLDOWN": 5,
+        "CHECK_EVERY": 500
+      },
+      "KEY7": {
+        "ENABLED": false,
+        "COOLDOWN": 5,
+        "CHECK_EVERY": 500
+      },
+      "KEY8": {
+        "ENABLED": false,
+        "COOLDOWN": 5,
+        "CHECK_EVERY": 500
+      },
+      "KEY9": {
+        "ENABLED": false,
+        "COOLDOWN": 5,
+        "CHECK_EVERY": 500
+      },
+      "KEY10": {
+        "ENABLED": false,
+        "COOLDOWN": 5,
+        "CHECK_EVERY": 500
+      }
+    },
+    "eu.darkbot.popcorn.don.GGSpinner": {
+      "ENABLED": false,
+      "EE_ONLY": false,
+      "MAX_SPIN_COST": 100,
+      "MIN_URI": 1000,
+      "QUICK_SPIN": 0.0,
+      "QUICKER_SPIN": 0.0,
+      "QUICKEST_SPIN": 0.0,
+      "GATE": "ALPHA",
+      "ADVANCED": {
+        "WAIT_ADD": 30,
+        "WAIT_DECAY": 30,
+        "WAIT_MAX": 3000,
+        "BURST": 10,
+        "LOG_STATUS": false
+      }
+    },
+    "eu.darkbot.kekawce.modules.chromintmpmodule.ChrominFarmerTmpModule": {
+      "ENABLE_FEATURE": false,
+      "lock": {},
+      "BUY_LIVES": 0,
+      "FIRST_LIFE_COST": 5000,
+      "SUICIDE_IN_RAD_ZONE": false,
+      "ZETA_WAVE": 0,
+      "ZETA_SUB_WAVE": "All npcs gone (only devourer left)",
+      "COLLECTOR": {
+        "PET_BOX_COLLECTING_ONLY": true,
+        "AMMO_KEY": "1",
+        "COLLECT_CONFIG": {
+          "CONFIG": 2,
+          "FORMATION": "9"
+        },
+        "SUICIDE_CONFIG": {
+          "CONFIG": 2,
+          "FORMATION": "9"
+        }
+      }
+    },
+    "eu.darkbot.kekawce.modules.infectiontmpmodule.InfectionTmpModule": {
+      "ENABLE_FEATURE": false,
+      "INFECT_KEY": "2",
+      "INFECT_CONFIG": {
+        "CONFIG": 2,
+        "FORMATION": "9"
+      },
+      "MIN_HP": 0.4,
+      "MAX_NPCS_IN_VISION": 10
+    },
+    "eu.darkbot.kekawce.modules.tradertmpmodule.OreTraderTmpModule": {
+      "ENABLE_FEATURE": false,
+      "SELL_MAP_NDX": 0,
+      "SELL_CONFIG": {
+        "CONFIG": 2,
+        "FORMATION": "9"
+      },
+      "FINISH_TARGET_BEFORE_SELLING": false,
+      "ORES_TO_SELL": [
+        "PROMETIUM",
+        "ENDURIUM",
+        "TERBIUM",
+        "PROMETID",
+        "DURANIUM",
+        "PROMERIUM",
+        "SEPROM",
+        "PALLADIUM",
+        "OSMIUM"
+      ],
+      "ADVANCED": {
+        "SELL_WAIT": 2000,
+        "SELL_DELAY": 300
+      }
+    },
+    "eu.darkbot.kaiserdj.lac.Launch": {},
+    "eu.darkbot.leanon00.tasks.SimpleStats": {
+      "ammoOptions": {
+        "X1": true,
+        "X2": true,
+        "X3": true,
+        "SAB": true,
+        "JOB": true,
+        "X4": true,
+        "X6": true,
+        "ABL": true,
+        "numOfMaximSelections": 8
+      }
+    },
+    "eu.darkbot.leanon00.tasks.Discord": {
+      "intervalMessage": 1,
+      "discordName": "Stats",
+      "sendSidLink": false,
+      "sendAmmoStats": true,
+      "sendSessionStats": false
+    },
+    "eu.darkbot.marek.penguin.tasks.NpcCounter": {
+      "delay": 5000,
+      "notification": false,
+      "npcMap": {}
+    },
+    "eu.darkbot.marek.penguin.behaviors.HealingAbility": {
+      "hpSolace": {
+        "activate": false,
+        "dontUseAbility": false,
+        "percentageHP": 0.5,
+        "amountHP": 100000
+      },
+      "hpAegis": {
+        "activate": false,
+        "dontUseAbility": false,
+        "percentageHP": 0.5,
+        "amountHP": 100000
+      },
+      "shieldAegis": {
+        "activate": false,
+        "dontUseAbility": false,
+        "percentageShield": 0.5,
+        "amountShield": 100000
+      },
+      "hpAegisPod": {
+        "activate": false,
+        "dontUseAbility": false,
+        "percentageHP": 0.5,
+        "amountHP": 100000
+      },
+      "hpHammer": {
+        "activate": false,
+        "dontUseAbility": false,
+        "percentageHP": 0.5,
+        "amountHP": 100000
+      },
+      "shieldHammer": {
+        "activate": false,
+        "dontUseAbility": false,
+        "percentageShield": 0.5,
+        "amountShield": 100000
+      },
+      "hpHammerPod": {
+        "activate": false,
+        "dontUseAbility": false,
+        "percentageHP": 0.5,
+        "amountHP": 100000
+      },
+      "hpOrcus": {
+        "activate": false,
+        "dontUseAbility": false,
+        "percentageHP": 0.5,
+        "amountHP": 100000
+      },
+      "petCombo": {
+        "activate": false,
+        "percentageHP": 0.5,
+        "amountHP": 100000
+      }
+    },
+    "eu.darkbot.marek.penguin.behaviors.GroupMemberAttacker": {
+      "all": false
+    },
+    "eu.darkbot.marek.penguin.behaviors.FormationChanger": {
+      "allNpcs": false,
+      "usingSab": false,
+      "percentageHP": 0.0,
+      "percentageShield": 0.0
+    },
+    "eu.darkbot.marek.penguin.behaviors.ConfigurationChanger": {
+      "ATTACK_CONFIG": {
+        "CONFIG": 1
+      },
+      "DEFAULT": {
+        "CONFIG": 1
+      },
+      "percentageHP": 0.0,
+      "percentageShield": 0.0,
+      "allNpcs": false
+    },
+    "eu.darkbot.marek.penguin.modules.Cubikon": {
+      "killNpcs": false,
+      "collect": false,
+      "useKami": false
+    },
+    "eu.darkbot.marek.penguin.behaviors.CustomEvent": {
+      "npcMap": {},
+      "customEventSubConfig1": {
+        "currentEventTableBoolean": false,
+        "configNumber": 1,
+        "isReadyTime": 0,
+        "forceTime": 1654622201397,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig2": {
+        "currentEventTableBoolean": false,
+        "configNumber": 2,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig3": {
+        "currentEventTableBoolean": false,
+        "configNumber": 3,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig4": {
+        "currentEventTableBoolean": false,
+        "configNumber": 4,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig5": {
+        "currentEventTableBoolean": false,
+        "configNumber": 5,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig6": {
+        "currentEventTableBoolean": false,
+        "configNumber": 6,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig7": {
+        "currentEventTableBoolean": false,
+        "configNumber": 7,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig8": {
+        "currentEventTableBoolean": false,
+        "configNumber": 8,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig9": {
+        "currentEventTableBoolean": false,
+        "configNumber": 9,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig10": {
+        "currentEventTableBoolean": false,
+        "configNumber": 10,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig11": {
+        "currentEventTableBoolean": false,
+        "configNumber": 11,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig12": {
+        "currentEventTableBoolean": false,
+        "configNumber": 12,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig13": {
+        "currentEventTableBoolean": false,
+        "configNumber": 13,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig14": {
+        "currentEventTableBoolean": false,
+        "configNumber": 14,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      },
+      "customEventSubConfig15": {
+        "currentEventTableBoolean": false,
+        "configNumber": 15,
+        "isReadyTime": 0,
+        "forceTime": 1654622201406,
+        "checkedNpcInTable": false,
+        "activate": false,
+        "dontUse": false,
+        "trigger": "PRESS_KEY",
+        "condition": "EVERY_X_SEC",
+        "effect": "ENERGY_LEECH",
+        "defaultGear": 1,
+        "gearToChoose": 1,
+        "defaultConfig": {
+          "CONFIG": 1
+        },
+        "configToChoose": {
+          "CONFIG": 1
+        },
+        "force": 0,
+        "percentageHP": 0.5,
+        "percentageShield": 0.5,
+        "amountHP": 100000,
+        "amountShield": 100000,
+        "cooldown": 2,
+        "specificTime": "00:00:00",
+        "allNpcs": false
+      }
+    },
+    "eu.darkbot.marek.penguin.behaviors.PetLink": {
+      "defaultGear": 1,
+      "percentageHP": 0.6,
+      "repairPet": true,
+      "everyTarget": false
+    },
+    "eu.darkbot.marek.penguin.behaviors.Defense": {
+      "SAFEDIST": 1500,
+      "HP": 0.9,
+      "SP": 0.8,
+      "ATTACK": false,
+      "SAB_SP_OVER": 200000
+    },
+    "eu.darkbot.marek.penguin.behaviors.Breaks": {
+      "pause": 15
+    },
+    "eu.darkbot.marek.penguin.modules.Follow": {
+      "forcedMap": true,
+      "radius": 150,
+      "delay": 50
+    },
+    "eu.darkbot.marek.penguin.modules.Behemoth": {
+      "changeMap": false,
+      "map1": "MMO",
+      "xMap1": 199,
+      "yMap1": 57,
+      "map2": "EIC",
+      "xMap2": 69,
+      "yMap2": 50,
+      "map3": "VRU",
+      "xMap3": 45,
+      "yMap3": 37,
+      "waitForGroup": false,
+      "killNpcs": false,
+      "killAllNpcs": false,
+      "collectBox": false,
+      "waitBeforeChangingMap": 10,
+      "waitAfterKilling": 10,
+      "collectConfig": {
+        "CONFIG": 1
+      }
+    },
+    "eu.darkbot.marek.penguin.evil.ShipKiller": {
+      "SHIP_RADIUS": 200,
+      "SHIP_CIRCLE": true,
+      "SHIP_KILL": true,
+      "SHIP_ATTACK_ENEMIES": true,
+      "SHIP_ATTACK_ALLIES": false,
+      "SHIP_ATTACK_PLAYERS": true,
+      "SHIP_ATTACK_PETS": false,
+      "SHIP_TROLLMODE": false,
+      "SHIP_PRIORITY": 0,
+      "SHIP_IGNORE_ATTACKED": false,
+      "SHIP_IGNORE_OWNERSHIP": false,
+      "SHIP_ATTACK_SECOND": false,
+      "SHIP_PASSIVE": false
+    },
+    "com.pikapika.tasks.auction.Auction": {
+      "activate": false,
+      "BID_MINUTE": 1,
+      "BID_SECOND": 1,
+      "TIMEOUT": 30,
+      "PRIORITY": true,
+      "AUCTION_INFO": {}
+    },
+    "com.pikapika.tasks.dispatch.Dispatch": {
+      "TIME_STATUS": "Waiting",
+      "activate": false,
+      "UPDATE_DELAY": 5,
+      "permits": 0,
+      "ggeu": 0,
+      "slotsFree": 0,
+      "slotsMax": 0,
+      "DISPATCH_INFO": {}
+    },
+    "com.pikapika.behaviour.labyrinthConfigChanger.LabyrinthConfigChanger": {
+      "activate": false,
+      "BOT_PROFILE_OPEN": "config",
+      "BOT_PROFILE_CLOSED": "config"
+    },
+    "com.pikapika.behaviour.escortConfigChanger.EscortConfigChanger": {
+      "activate": false,
+      "BOT_PROFILE_OPEN": "config",
+      "BOT_PROFILE_CLOSED": "config"
+    },
+    "eu.darkbot.asurax.ree.modulehaviour.AutoSell": {
+      "ORE_LIST": [],
+      "SELL": {
+        "CONFIG": 1,
+        "FORMATION": "8"
+      },
+      "SELL_CD": 60,
+      "SELL_WAIT": 3,
+      "SELL_PERCENT": 0.95,
+      "SELL_NO_NPC_IN_SIGHT": true
+    }
+  },
+  "PLUGIN_INFOS": {
+    "Default plugin_by_Popcorn": {
+      "DISABLED_FEATURES": [
+        "eu.darkbot.popcorn.def.SampleModule"
+      ],
+      "ENABLED_FEATURES": [
+        "eu.darkbot.popcorn.def.AntiPush",
+        "eu.darkbot.popcorn.def.CaptchaPicker",
+        "eu.darkbot.popcorn.def.FlashPatcher",
+        "eu.darkbot.popcorn.def.PalladiumModule",
+        "eu.darkbot.popcorn.def.UserAgentUpdater"
+      ]
+    },
+    "DmPlugin_by_Dm94Dani": {
+      "DISABLED_FEATURES": [
+        "com.deeme.behaviours.Others",
+        "com.deeme.tasks.Discord",
+        "com.deeme.tasks.Ifttt",
+        "com.deeme.tasks.Skylab",
+        "com.deeme.tasks.AutoChangeMap",
+        "com.deeme.behaviours.PVPLog",
+        "com.deeme.modules.PaladiumModule",
+        "com.deeme.modules.SentinelModule",
+        "com.deeme.modules.PVPModule",
+        "com.deeme.tasks.WeeklySchedule",
+        "com.deeme.behaviours.DefenseMode"
+      ],
+      "ENABLED_FEATURES": []
+    },
+    "Kekka Reloaded_by_Punisher": {
+      "DISABLED_FEATURES": [
+        "com.punikekk.modules.GoPModule",
+        "com.punikekk.modules.spawner.ChaosSpawner",
+        "com.punikekk.modules.follow.FollowModule",
+        "com.punikekk.tasks.helper.GalaxyHelper",
+        "com.punikekk.tasks.skylab.SkylabBuilder",
+        "com.punikekk.modules.GalaxyModule",
+        "com.punikekk.modules.LoWModule",
+        "com.punikekk.modules.hades.HadesModule",
+        "com.punikekk.modules.eternal.EternalGate"
+      ],
+      "ENABLED_FEATURES": []
+    },
+    "Osiris_by_hii666": {
+      "DISABLED_FEATURES": [
+        "com.hii666.behaviours.customEvent.CustomEvent",
+        "com.hii666.behaviours.PBC.PBCollector",
+        "com.hii666.behaviours.formationChanger.FormationChanger",
+        "com.hii666.behaviours.petRepair.PetRepair",
+        "com.hii666.tasks.stats.Stats",
+        "com.hii666.tasks.autobuy.AutoBuy",
+        "com.hii666.modules.traveller.Map42Traveller",
+        "com.hii666.behaviours.petMaxDeaths.PetMaxDeath"
+      ],
+      "ENABLED_FEATURES": []
+    },
+    "Schifo_by_Fabio": {
+      "DISABLED_FEATURES": [
+        "eu.darkbot.fabio.modules.HangarView",
+        "eu.darkbot.fabio.modules.LogReader",
+        "eu.darkbot.fabio.modules.BattlerayFarmer",
+        "eu.darkbot.fabio.modules.AutoRestart",
+        "eu.darkbot.fabio.modules.BackPage"
+      ],
+      "ENABLED_FEATURES": [
+        "eu.darkbot.fabio.modules.BotUpdater",
+        "eu.darkbot.fabio.modules.CacheCleanup"
+      ]
+    },
+    "TYX Plugin_by_TeYroX": {
+      "DISABLED_FEATURES": [
+        "eu.darkbot.teyrox.CubiModule",
+        "eu.darkbot.teyrox.NPCRadiusList",
+        "eu.darkbot.teyrox.BOXList"
+      ],
+      "ENABLED_FEATURES": []
+    },
+    "Donor plugin_by_Popcorn": {
+      "DISABLED_FEATURES": [
+        "eu.darkbot.popcorn.don.GGSpinner",
+        "eu.darkbot.popcorn.don.SimpleKeys",
+        "eu.darkbot.popcorn.don.PlayerTagger"
+      ],
+      "ENABLED_FEATURES": [
+        "eu.darkbot.popcorn.don.PlutusExperimentModule",
+        "eu.darkbot.popcorn.don.QuarantineModule",
+        "eu.darkbot.popcorn.don.MimesisGateModule",
+        "eu.darkbot.popcorn.don.CloackedNpcKiller",
+        "eu.darkbot.popcorn.don.LabyrinthModule"
+      ]
+    },
+    "KEKW_by_ace": {
+      "DISABLED_FEATURES": [],
+      "ENABLED_FEATURES": [
+        "eu.darkbot.kekawce.modules.infectiontmpmodule.InfectionTmpModule",
+        "eu.darkbot.kekawce.modules.tradertmpmodule.OreTraderTmpModule",
+        "eu.darkbot.kekawce.modules.chromintmpmodule.ChrominFarmerTmpModule"
+      ]
+    },
+    "Launch_by_⎛⎝ Kaiserdj™ ⎠⎞": {
+      "DISABLED_FEATURES": [
+        "eu.darkbot.kaiserdj.lac.Launch"
+      ],
+      "ENABLED_FEATURES": []
+    },
+    "LeanPlugin_by_leanon00": {
+      "DISABLED_FEATURES": [
+        "eu.darkbot.leanon00.tasks.Discord",
+        "eu.darkbot.leanon00.tasks.SimpleStats"
+      ],
+      "ENABLED_FEATURES": []
+    },
+    "Penguin Plugin_by_Marek": {
+      "DISABLED_FEATURES": [
+        "eu.darkbot.marek.penguin.behaviors.CustomEvent",
+        "eu.darkbot.marek.penguin.modules.Follow",
+        "eu.darkbot.marek.penguin.behaviors.PetLink",
+        "eu.darkbot.marek.penguin.modules.Cubikon",
+        "eu.darkbot.marek.penguin.behaviors.ConfigurationChanger",
+        "eu.darkbot.marek.penguin.behaviors.HealingAbility",
+        "eu.darkbot.marek.penguin.behaviors.GroupMemberAttacker",
+        "eu.darkbot.marek.penguin.behaviors.Defense",
+        "eu.darkbot.marek.penguin.tasks.NpcCounter",
+        "eu.darkbot.marek.penguin.modules.Behemoth",
+        "eu.darkbot.marek.penguin.behaviors.Breaks",
+        "eu.darkbot.marek.penguin.evil.ShipKiller",
+        "eu.darkbot.marek.penguin.behaviors.FormationChanger"
+      ],
+      "ENABLED_FEATURES": []
+    },
+    "Pika Plugin_by_PikaPika": {
+      "DISABLED_FEATURES": [
+        "com.pikapika.behaviour.labyrinthConfigChanger.LabyrinthConfigChanger",
+        "com.pikapika.tasks.auction.Auction",
+        "com.pikapika.behaviour.escortConfigChanger.EscortConfigChanger",
+        "com.pikapika.tasks.dispatch.Dispatch"
+      ],
+      "ENABLED_FEATURES": []
+    },
+    "REEE_by_AsuraX": {
+      "DISABLED_FEATURES": [],
+      "ENABLED_FEATURES": [
+        "eu.darkbot.asurax.ree.modulehaviour.AutoSell"
+      ]
+    }
+  },
+  "GENERAL": {
+    "CURRENT_MODULE": "com.github.manolo8.darkbot.modules.LootNCollectorModule",
+    "WORKING_MAP": 91,
+    "OFFENSIVE": {
+      "CONFIG": 1,
+      "FORMATION": "E"
+    },
+    "ROAM": {
+      "CONFIG": 1,
+      "FORMATION": "E"
+    },
+    "RUN": {
+      "CONFIG": 2,
+      "FORMATION": "E"
+    },
+    "SAFETY": {
+      "REPAIR_HP_RANGE": {
+        "min": 0.4,
+        "max": 0.95
+      },
+      "REPAIR_HP_NO_NPC": 0.5,
+      "REPAIR_TO_SHIELD": 1.0,
+      "REPAIR": {
+        "CONFIG": 1,
+        "FORMATION": "E"
+      },
+      "MAX_DEATHS": 10,
+      "REVIVE_LOCATION": 1,
+      "REVIVE": "BASE",
+      "WAIT_BEFORE_REVIVE": 5,
+      "WAIT_AFTER_REVIVE": 90
+    },
+    "RUNNING": {
+      "RUN_FROM_ENEMIES": true,
+      "REMEMBER_ENEMIES_FOR": 300,
+      "RUN_FROM_ENEMIES_SIGHT": false,
+      "STOP_RUNNING_NO_SIGHT": true,
+      "MAX_SIGHT_DISTANCE": 4000,
+      "SHIP_ABILITY_MIN": 1500,
+      "RUN_FURTHEST_PORT": 1500
+    },
+    "ROAMING": {
+      "KEEP": true,
+      "SEQUENTIAL": false,
+      "ONLY_KILL_PREFERRED": false,
+      "ENEMY_CBS_INVISIBLE": false
+    }
+  },
+  "COLLECT": {
+    "STAY_AWAY_FROM_ENEMIES": true,
+    "AUTO_CLOACK": false,
+    "RADIUS": 400,
+    "IGNORE_CONTESTED_BOXES": true,
+    "BOX_INFOS": {
+      "PIRATE_BOOTY": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "FROM_SHIP": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "PIRATE_BOOTY_BLUE": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "BONUS_BOX": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "PIRATE_BOOTY_RED": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "MUCOSUM": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "AURUS_BOX": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "BIFENON": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      }
+    }
+  },
+  "LOOT": {
+    "SAB": {
+      "ENABLED": false,
+      "KEY": "2",
+      "PERCENT": 0.8,
+      "NPC_AMOUNT": 12000
+    },
+    "RSB": {
+      "ENABLED": false,
+      "KEY": "3",
+      "AMMO_REFRESH": 3500
+    },
+    "AMMO_KEY": "1",
+    "SHIP_ABILITY_MIN": 150000,
+    "MAX_CIRCLE_ITERATIONS": 5,
+    "RUN_CONFIG_IN_CIRCLE": true,
+    "GROUP_NPCS": true,
+    "NPC_INFOS": {
+      "-\u003d[ Lordakium ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          17
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          17,
+          3,
+          4
+        ]
+      },
+      "..::{ Boss Kristallon }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "( Uber Battleray )": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "..::{ Boss Kristallin }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "-\u003d[ StreuneR ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          20
+        ]
+      },
+      "( UberLordakium )": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "-\u003d[ Deadly Battleray ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "..::{ Boss Sibelon }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "\\\\ Impulse II //": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          306
+        ]
+      },
+      "\\\\ Purpose XXI //": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          20
+        ]
+      },
+      "..::{ Boss StreuneR }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "( UberLordakia )": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          19
+        ]
+      },
+      "\u003c\u003d\u003c Blighted Gygerthrall \u003e\u003d\u003e": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          19
+        ]
+      },
+      "..::{ Boss Sibelonit }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          19
+        ]
+      },
+      "..::{ Boss Streuner }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "..::{ Boss Saimon }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29,
+          3
+        ]
+      },
+      "( UberKristallon )": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "..::{ Boss Lordakia }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "( UberKristallin )": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          29
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          17
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d- α1": {
+        "radius": 450.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d- β1": {
+        "radius": 450.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d- γ1": {
+        "radius": 450.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d- α2": {
+        "radius": 450.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d- β2": {
+        "radius": 450.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d- γ2": {
+        "radius": 450.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d- α3": {
+        "radius": 450.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d- β3": {
+        "radius": 450.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d- γ3": {
+        "radius": 450.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d- α4": {
+        "radius": 450.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d- β4": {
+        "radius": 450.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d- γ4": {
+        "radius": 450.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- α5": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- β5": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- γ5": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- α6": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- β6": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- γ6": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- α7": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- β7": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- γ7": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- α8": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- β8": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- γ8": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lWAIT_CENTER",
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- α9": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- β9": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- γ9": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- α10": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- β10": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- γ10": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- α11": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- β11": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- γ11": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- α12": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- β12": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- γ12": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- α13": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- β13": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- γ13": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- α14": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- β14": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- γ14": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- α15": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- β15": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- γ15": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- α16": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- β16": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- γ16": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d- α17": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d- β17": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d- γ17": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d- α18": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d- β18": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d- γ18": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d- α19": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d- β19": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d- γ19": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d- α20": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d- β20": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d- γ20": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- α21": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- β21": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- γ21": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- α22": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- β22": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- γ22": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- α23": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- β23": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- γ23": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- α24": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- β24": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- γ24": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Sibelon ]\u003d- α25": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Sibelon ]\u003d- β25": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Sibelon ]\u003d- γ25": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Sibelon ]\u003d- α26": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Sibelon ]\u003d- β26": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Sibelon ]\u003d- γ26": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Sibelon ]\u003d- α27": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Sibelon ]\u003d- β27": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Sibelon ]\u003d- γ27": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Sibelon ]\u003d- α28": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Sibelon ]\u003d- β28": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Sibelon ]\u003d- γ28": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- α29": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- β29": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- γ29": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- α30": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- β30": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- γ30": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- α31": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- β31": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- γ31": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- α32": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- β32": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- γ32": {
+        "radius": 605.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": [
+            "com.punikekk.lUSE_KAMIKAZE"
+          ]
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d- α33": {
+        "radius": 610.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d- β33": {
+        "radius": 610.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d- γ33": {
+        "radius": 610.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d- α34": {
+        "radius": 610.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d- β34": {
+        "radius": 610.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d- γ34": {
+        "radius": 610.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d- α35": {
+        "radius": 610.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d- β35": {
+        "radius": 610.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d- γ35": {
+        "radius": 610.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d- α36": {
+        "radius": 610.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d- β36": {
+        "radius": 610.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d- γ36": {
+        "radius": 610.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- α37": {
+        "radius": 630.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- β37": {
+        "radius": 630.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- γ37": {
+        "radius": 630.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- α38": {
+        "radius": 630.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- β38": {
+        "radius": 630.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- γ38": {
+        "radius": 630.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- α39": {
+        "radius": 630.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- β39": {
+        "radius": 630.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- γ39": {
+        "radius": 630.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- α40": {
+        "radius": 630.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          51
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- β40": {
+        "radius": 630.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          52
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- γ40": {
+        "radius": 630.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          53
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- δ1": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- δ10": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- δ2": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d- δ6": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- δ3": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- δ7": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ StreuneR ]\u003d- δ4": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d-  δ5": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- δ8": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- δ17": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- δ20": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Lordakium ]\u003d- δ9": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "..::{ Boss Lordakia }::.. δ11": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "..::{ Boss Mordon }::.. δ12": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "..::{ Boss Saimon }::.. δ13": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Sibelon ]\u003d- δ14": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- δ15": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- δ16": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "..::{ Boss StreuneR }::.. δ18": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Kristallon ]\u003d- δ19": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "..::{ Boss Lordakium }::... δ21": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "..::{ Boss Lordakium }::... δ23": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "..::{ Boss Lordakium }::... δ25": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- δ22": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- δ24": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Protegit ]\u003d- δ26": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d{ demaNeR }\u003d- δ27": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d{ demaNeR }\u003d- δ28": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d{ demaNeR }\u003d- δ29": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          55
+        ]
+      },
+      "-\u003d[ Vagrant ]\u003d- ε1": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Vagrant ]\u003d- ε2": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Vagrant ]\u003d- ε3": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Vagrant ]\u003d- ε4": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Vagrant ]\u003d- ε6": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Marauder ]\u003d- ε5": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Marauder ]\u003d- ε7": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Marauder ]\u003d- ε10": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Outcast ]\u003d- ε8": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Outcast ]\u003d- ε9": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Outcast ]\u003d- ε11": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Outcast ]\u003d- ε12": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Outcast ]\u003d- ε13": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Outcast ]\u003d- ε17": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Corsair ]\u003d- ε14": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Corsair ]\u003d- ε15": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Corsair ]\u003d- ε16": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Corsair ]\u003d- ε19": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Hooligan ]\u003d- ε18": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Hooligan ]\u003d- ε20": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Hooligan ]\u003d- ε21": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Hooligan ]\u003d- ε22": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Hooligan ]\u003d- ε23": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Hooligan ]\u003d- ε25": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Ravager ]\u003d- ε24": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Ravager ]\u003d- ε26": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Ravager ]\u003d- ε29": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Convict ]\u003d- ε27": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Convict ]\u003d- ε28": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Convict ]\u003d- ε30": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          70
+        ]
+      },
+      "-\u003d[ Infernal ]\u003d- ζ1": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Infernal ]\u003d- ζ2": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Infernal ]\u003d- ζ3": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Infernal ]\u003d- ζ4": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Infernal ]\u003d- ζ5": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Infernal ]\u003d- ζ7": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Infernal ]\u003d- ζ26": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Infernal ]\u003d- ζ28": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Scorcher ]\u003d- ζ6": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Scorcher ]\u003d- ζ8": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Scorcher ]\u003d- ζ9": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Scorcher ]\u003d- ζ10": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Scorcher ]\u003d- ζ11": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Scorcher ]\u003d- ζ12": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Scorcher ]\u003d- ζ13": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Scorcher ]\u003d- ζ14": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Scorcher ]\u003d- ζ16": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Scorcher ]\u003d- ζ29": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Melter ]\u003d- ζ15": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Melter ]\u003d- ζ17": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Melter ]\u003d- ζ18": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Melter ]\u003d- ζ19": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Melter ]\u003d- ζ20": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Melter ]\u003d- ζ21": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Melter ]\u003d- ζ22": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Melter ]\u003d- ζ23": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Melter ]\u003d- ζ24": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Devourer ]\u003d- ζ25": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Devourer ]\u003d- ζ27": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d- ζ30": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ StreuneR ]\u003d- ζ32": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "..::{ Boss Streuner }::.. ζ32": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "( UberStreuner ) ζ33": {
+        "radius": 560.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "( UberStreuneR ) ζ34": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d- ζ35": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "..::{ Boss Lordakia }::.. ζ36": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "( UberLordakia ) ζ37": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d- ζ38": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "..::{ Boss Saimon }::.. ζ39": {
+        "radius": 550.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "( UberSaimon ) ζ40": {
+        "radius": 580.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d- ζ41": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "..::{ Boss Sibelonit }::.. ζ42": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "( UberSibelonit ) ζ43": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "-\u003d[ Kristallin ]\u003d- ζ44": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "..::{ Boss Kristallin }::.. ζ45": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "( UberKristallin ) ζ46": {
+        "radius": 590.0,
+        "priority": 0,
+        "kill": true,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          71
+        ]
+      },
+      "..::{ Boss Mordon }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          3
+        ]
+      },
+      "-\u003d[ Barracuda ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          92
+        ]
+      },
+      "-\u003d[ Interceptor ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          92
+        ]
+      },
+      "( Uber Interceptor )": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          92
+        ]
+      },
+      "-\u003d[ Annihilator ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          92
+        ]
+      },
+      "\\\\ Urge IV //": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          92
+        ]
+      },
+      "-\u003d[ Saboteur ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          92
+        ]
+      },
+      "-\u003d[ Battleray ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          93
+        ]
+      },
+      "..::{ Boss Devolarium }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          3
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          4
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          4
+        ]
+      }
+    },
+    "NPC_DISTANCE_IGNORE": 3000
+  },
+  "PET": {
+    "ENABLED": false,
+    "MODULE_ID": "PASSIVE"
+  },
+  "GROUP": {
+    "ACCEPT_INVITES": false,
+    "OPEN_INVITES": false,
+    "LEAVE_NO_WHITELISTED": false
+  },
+  "MISCELLANEOUS": {
+    "REFRESH_AFTER_REVIVE": false,
+    "REFRESH_TIME": 60,
+    "PAUSE_FOR": 0,
+    "RESET_REFRESH": true,
+    "DRONE_REPAIR_PERCENTAGE": 0.9,
+    "HONOR_LOST_EXACT": true,
+    "LOG_CHAT": false,
+    "LOG_DEATHS": false,
+    "AVOID_MINES": true,
+    "USERNAME_ON_TITLE": false,
+    "AUTO_REFINE": false
+  },
+  "BOT_SETTINGS": {
+    "BOT_GUI": {
+      "LOCALE": "en",
+      "CONFIRM_EXIT": true,
+      "SAVE_GUI_POS": true,
+      "BUTTON_SIZE": 4,
+      "ALWAYS_ON_TOP": false,
+      "MAIN_GUI_WINDOW": {
+        "x": 960,
+        "y": 456,
+        "width": 640,
+        "height": 480
+      },
+      "CONFIG_GUI_WINDOW": {
+        "x": 848,
+        "y": 384,
+        "width": 640,
+        "height": 480
+      }
+    },
+    "API_CONFIG": {
+      "BROWSER_API": "DARK_BOAT",
+      "FULLY_HIDE_API": true,
+      "FORCE_GAME_LANGUAGE": false,
+      "ENFORCE_HW_ACCEL": true,
+      "MAX_FPS": 60,
+      "DARK_HOOK_FLAGS": [
+        "TRAVEL",
+        "COLLECT",
+        "REFINE"
+      ],
+      "width": 1280,
+      "height": 800
+    },
+    "MAP_DISPLAY": {
+      "TOGGLE": [
+        "HERO_NAME",
+        "HP_SHIELD_NUM",
+        "ZONES",
+        "STATS_AREA",
+        "GROUP_AREA",
+        "GROUP_NAMES",
+        "BOOSTER_AREA"
+      ],
+      "TRAIL_LENGTH": 15,
+      "MAP_START_STOP": false,
+      "cs": {
+        "BACKGROUND": "#FF263238",
+        "TEXT": "#FFF2F2F2",
+        "TEXT_DARK": "#FFBBBBBB",
+        "GOING": "#FF8F9BFF",
+        "PORTALS": "#FFAEAEAE",
+        "HERO": "#FF22CC22",
+        "TRAIL_BASE": "#FFE0E0E0",
+        "FUEL": "#FFF2F2F2",
+        "BOXES": "#FFBBB830",
+        "MINES": "#FFFF8000",
+        "ALLIES": "#FF29B6F6",
+        "ENEMIES": "#FFD50000",
+        "NPCS": "#FFAA4040",
+        "TARGET": "#FF762C2C",
+        "PET": "#FF004C8C",
+        "PET_IN": "#FFC56000",
+        "HEALTH": "#FF388E3C",
+        "NANO_HULL": "#FFD0D024",
+        "SHIELD": "#FF0288D1",
+        "METEROID": "#FFAAAAAA",
+        "PING": "#2000FF00",
+        "PING_BORDER": "#8000FF00",
+        "BARRIER": "#20FFFFFF",
+        "BARRIER_BORDER": "#80FFFFFF",
+        "NO_CLOACK": "#2018A0FF",
+        "PREFER": "#2000FF80",
+        "AVOID": "#20FF0000",
+        "SAFETY": "#601080FF",
+        "BASES": "#FF00FF80",
+        "BASE_SPOTS": "#2000FF80",
+        "UNKNOWN": "#FF7C05D1",
+        "TEXTS_BACKGROUND": "#80263238",
+        "ACTION_BUTTON": "#A0FFFFFF",
+        "DARKEN_BACK": "#60000000",
+        "ZONE_EDITOR": {
+          "LINES": "#80808080",
+          "HOVERING": "#FF0096C8",
+          "SELECTING": "#FF0080FF",
+          "ZONE": "#4000FF80"
+        },
+        "SAFETY_EDITOR": {
+          "ZONE_HIGHLIGHT": "#6000FF80",
+          "ZONE_SELECTED": "#8000FF80",
+          "ZONE_SOLID": "#FF00FF80"
+        },
+        "FONTS": {
+          "BIG": "32:Consolas",
+          "MID": "18:SansSerif",
+          "SMALL": "12:Consolas",
+          "TINY": "9:SansSerif"
+        }
+      }
+    },
+    "CUSTOM_BACKGROUND": {
+      "ENABLED": false,
+      "USE_GAME_BACKGROUND": false,
+      "OPACITY": 0.30000001192092896,
+      "IMAGE": {}
+    },
+    "OTHER": {
+      "DISABLE_MASTER_PASSWORD": false,
+      "ZONE_RESOLUTION": 60,
+      "MIN_TICK": 15,
+      "DEV_STUFF": false
+    }
+  },
+  "EXTRA": {
+    "ACTION_INFOS": {}
+  }
+}

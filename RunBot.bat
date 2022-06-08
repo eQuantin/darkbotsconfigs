@@ -1,0 +1,1 @@
+START javaw -jar DarkBot.jar -start -login file.properties
